@@ -14,38 +14,38 @@ Spinal Fractures MeSH Heading with Surgery MeSH Subheading in Systematic Reviews
 
 ## Основной таймлайн (2018)
 * 28 мая: написать протокол обзора (цель, только PubMed (MEDLINE) и eLIBRARY.RU, только журналы, без ограничений по языку и году публикации, приоритет исследованиям высокого качества, восемь шагов с `шаг 1` по `шаг 8` и методика их расстановки, см. оригинал — загрузить в репу и добавить ссылку)
-* 29 мая: завершить первичный скрининг Randomized Controlled Trial Subset (RCTS) в SFMHSUSH (запрос: `(spinal fractures[mh]) AND surgery[sh] AND (randomized controlled trial[sb])`; 42 не исключено, разбивка по шагам следует)
-    шаг 1 - фаза 0-1 (N = 4) [Records Excluded Step 1 Cadaver or Biomech or In Vitro or In Silico or Healthy] RCTs - High QoE Studies in Early Posterior MIS Fixation for Non-SCI TL Spine Trauma of Living Adults
-шаг 2 - дети (N = 0) [Records Excluded Step 2 Pediatric] RCTs - High QoE Studies in Early Posterior MIS Fixation for Non-SCI TL Spine Trauma of Living Adults
-шаг 3 - не спина (N = 4) [Records Excluded Step 3 Adult Not Spine] RCTs - High QoE Studies in Early Posterior MIS Fixation for Non-SCI TL Spine Trauma of Living Adults
-шаг 4 - не травма (N = 5) [Records Excluded Step 4 Spine Other Than Trauma] RCTs - High QoE Studies in Early Posterior MIS Fixation for Non-SCI TL Spine Trauma of Living Adults
-шаг 5 - шея (N = 3) [Records Excluded Step 5 C-Spine Trauma] RCTs - High QoE Studies in Early Posterior MIS Fixation for Non-SCI TL Spine Trauma of Living Adults
-шаг 6 - осложненная травма (N = 4) [Records Excluded Step 6 TL Trauma SCI Present] RCTs - High QoE Studies in Early Posterior MIS Fixation for Non-SCI TL Spine Trauma of Living Adults
-шаг 7 - ВП (N = 57) [Records Excluded Step 7 VA or RFA] RCTs - High QoE Studies in Early Posterior MIS Fixation for Non-SCI TL Spine Trauma of Living Adults
-шаг 8 - не хирургия (N = 8) [Records Excluded Step 8 No Surgery in the Spine] RCTs - High QoE Studies in Early Posterior MIS Fixation for Non-SCI TL Spine Trauma of Living Adults
+* 29 мая: завершить первичный скрининг Randomized Controlled Trial Subset (RCTS) в SFMHSUSH (запрос: `(spinal fractures[mh]) AND surgery[sh] AND (randomized controlled trial[sb])`; … не исключено, разбивка по шагам следует)
+    шаг 1 - фаза 0-1 (N = …) [Records Excluded Step 1 Cadaver or Biomech or In Vitro or In Silico or Healthy] RCTs - High QoE Studies in Early Posterior MIS Fixation for Non-SCI TL Spine Trauma of Living Adults
+шаг 2 - дети (N = …) [Records Excluded Step 2 Pediatric] RCTs - High QoE Studies in Early Posterior MIS Fixation for Non-SCI TL Spine Trauma of Living Adults
+шаг 3 - не спина (N = …) [Records Excluded Step 3 Adult Not Spine] RCTs - High QoE Studies in Early Posterior MIS Fixation for Non-SCI TL Spine Trauma of Living Adults
+шаг 4 - не травма (N = …) [Records Excluded Step 4 Spine Other Than Trauma] RCTs - High QoE Studies in Early Posterior MIS Fixation for Non-SCI TL Spine Trauma of Living Adults
+шаг 5 - шея (N = …) [Records Excluded Step 5 C-Spine Trauma] RCTs - High QoE Studies in Early Posterior MIS Fixation for Non-SCI TL Spine Trauma of Living Adults
+шаг 6 - осложненная травма (N = …) [Records Excluded Step 6 TL Trauma SCI Present] RCTs - High QoE Studies in Early Posterior MIS Fixation for Non-SCI TL Spine Trauma of Living Adults
+шаг 7 - ВП (N = …) [Records Excluded Step 7 VA or RFA] RCTs - High QoE Studies in Early Posterior MIS Fixation for Non-SCI TL Spine Trauma of Living Adults
+шаг 8 - не хирургия (N = …) [Records Excluded Step 8 No Surgery in the Spine] RCTs - High QoE Studies in Early Posterior MIS Fixation for Non-SCI TL Spine Trauma of Living Adults
 * 29 мая: выполнить поиск SFMHSUSH SSB (210 записей)
-* 6 июня: завершить первичный скрининг SFMHSUSH SSB (44 не исключено, шаги не записывали)
+* 6 июня: завершить первичный скрининг SFMHSUSH SSB (… не исключено, шаги не записывали)
 * 6 июня: выполнить поиск SFMHSUSH HSSS (1006 записей)
 * 7 июня: добавить `шаг 5b` и `шаг 6b`
 * 9 июня: добавить `шаг 5c` и `шаг 8a`
-* 23 июня: завершить первичный скрининг SFMHSUSH HSSS (236 не исключено, `шаг 9` еще не существует, разбивка по шагам следует)
-шаг 1 - фаза 0-1 (N = 84) [Records Excluded Step 1 Animal or Cadaver or Biomech or In Vitro or In Silico or Healthy]
-шаг 2 - дети (N = 8) [Records Excluded Step 2 Pediatric]
-шаг 3 - не спина (N = 28) [Records Excluded Step 3 Adult Not Spine]
-шаг 4a - шея (N = 96) [Records Excluded Step 4a Adult C-Spine]
-шаг 4b - таз (N = 14) [Records Excluded Step 4b Adult Pelvis]
-шаг 5c - не травма (N = 45) [Records Excluded Step 5c TL Spine Other Than Trauma]
-шаг 6 - осложненная травма (N = 29) [Records Excluded Step 6 TL Trauma SCI Present]
-шаг 6b - последствия травм (N = 7) [Records Excluded Step 6b Late TL Trauma]
-шаг 7 - ВП (N = 364) [Records Excluded Step 7 VA or RFA]
-шаг 8 - не хирургия (N = 40) [Records Excluded Step 8 Operation on Vertebrae Not Main Topic]
-шаг 8a - не та хирургия (N = 17) [Records Excluded Step 8a Surgery Not Directly Relevant]
-* 24 июня: добавить в SFMHSUSH HSSS 42 неисключенные записи из SFMHSUSH RCTS (итого 1010 записей вместо ожидаемых 1006, причина не выяснена, из них неисключенных 278, слияние исключенных по шагам не выполняли)
-* 27 июня: выполнить слияние 278 неисключенных SFMHSUSH HSSS и 44 неисключенных SSB (итого 296 не исключено с учетом пересечений)
+* 23 июня: завершить первичный скрининг SFMHSUSH HSSS (… не исключено, `шаг 9` еще не существует, разбивка по шагам следует)
+шаг 1 - фаза 0-1 (N = …) [Records Excluded Step 1 Animal or Cadaver or Biomech or In Vitro or In Silico or Healthy]
+шаг 2 - дети (N = …) [Records Excluded Step 2 Pediatric]
+шаг 3 - не спина (N = …) [Records Excluded Step 3 Adult Not Spine]
+шаг 4a - шея (N = …) [Records Excluded Step 4a Adult C-Spine]
+шаг 4b - таз (N = …) [Records Excluded Step 4b Adult Pelvis]
+шаг 5c - не травма (N = …) [Records Excluded Step 5c TL Spine Other Than Trauma]
+шаг 6 - осложненная травма (N = …) [Records Excluded Step 6 TL Trauma SCI Present]
+шаг 6b - последствия травм (N = …) [Records Excluded Step 6b Late TL Trauma]
+шаг 7 - ВП (N = …) [Records Excluded Step 7 VA or RFA]
+шаг 8 - не хирургия (N = …) [Records Excluded Step 8 Operation on Vertebrae Not Main Topic]
+шаг 8a - не та хирургия (N = …) [Records Excluded Step 8a Surgery Not Directly Relevant]
+* 24 июня: добавить в SFMHSUSH HSSS … неисключенные записи из SFMHSUSH RCTS (итого 1010 записей вместо ожидаемых 1006, причина не выяснена, из них неисключенных …, слияние исключенных по шагам не выполняли)
+* 27 июня: выполнить слияние … неисключенных SFMHSUSH HSSS и … неисключенных SSB (итого … не исключено с учетом пересечений)
 * 31 июля: добавить `шаг 9`
 * 21 июля: дополнить HSSS термином `randomised[tiab]`, присвоить v. 2
 * 15 октября: выполнить SFMHSUSH SSB HSSS для контроля числа записей, с ограничением по дате полной индексации `1600/01/01 : 2018/06/05[cdat]` (1117 записей)
-* 9 ноября: выполнить SFMHSUSH SSB HSSS v. 2, проскринить вновь найденные (всего 1135 записей, без SFMHSUSH SSB HSSS получены ожидаемые 18 записей — проскринены, все исключены, шаги не записывали)
+* 9 ноября: выполнить SFMHSUSH SSB HSSS v. 2, проскринить вновь найденные (всего 1135 записей, без SFMHSUSH SSB HSSS получены ожидаемые 18 записей — проскринены, …, шаги не записывали)
 
 ## Критерии исключения
     шаг 0 - не исключено [Records Not Excluded Step 0]
