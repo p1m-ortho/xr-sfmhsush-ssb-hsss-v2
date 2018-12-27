@@ -14,21 +14,26 @@ https://rayyan.qcri.org/reviews/40538
 
 ## Основной таймлайн (2018)
 * 28 мая: написать протокол обзора (цель, только PubMed (MEDLINE) и eLIBRARY.RU, только журналы, без ограничений по языку и году публикации, приоритет исследованиям высокого качества, восемь шагов с `шаг 1` по `шаг 8` и методика их расстановки, см. оригинал — https://github.com/p1m-ortho/xr-sfmhsush-ssb-hsss-v2/commit/36833cebaffb5b8f978c79164586bdc277467ab3)
-* 29 мая: завершить первичный скрининг Randomized Controlled Trial Subset (RCTS) в SFMHSUSH (запрос: `(spinal fractures[mh]) AND surgery[sh] AND (randomized controlled trial[sb])`; … не исключено, разбивка по шагам следует)
-шаг 1 - фаза 0-1 (N = …) [Records Excluded Step 1 Cadaver or Biomech or In Vitro or In Silico or Healthy] RCTs - High QoE Studies in Early Posterior MIS Fixation for Non-SCI TL Spine Trauma of Living Adults
-шаг 2 - дети (N = …) [Records Excluded Step 2 Pediatric] RCTs - High QoE Studies in Early Posterior MIS Fixation for Non-SCI TL Spine Trauma of Living Adults
-шаг 3 - не спина (N = …) [Records Excluded Step 3 Adult Not Spine] RCTs - High QoE Studies in Early Posterior MIS Fixation for Non-SCI TL Spine Trauma of Living Adults
-шаг 4 - не травма (N = …) [Records Excluded Step 4 Spine Other Than Trauma] RCTs - High QoE Studies in Early Posterior MIS Fixation for Non-SCI TL Spine Trauma of Living Adults
-шаг 5 - шея (N = …) [Records Excluded Step 5 C-Spine Trauma] RCTs - High QoE Studies in Early Posterior MIS Fixation for Non-SCI TL Spine Trauma of Living Adults
-шаг 6 - осложненная травма (N = …) [Records Excluded Step 6 TL Trauma SCI Present] RCTs - High QoE Studies in Early Posterior MIS Fixation for Non-SCI TL Spine Trauma of Living Adults
-шаг 7 - ВП (N = …) [Records Excluded Step 7 VA or RFA] RCTs - High QoE Studies in Early Posterior MIS Fixation for Non-SCI TL Spine Trauma of Living Adults
-шаг 8 - не хирургия (N = …) [Records Excluded Step 8 No Surgery in the Spine] RCTs - High QoE Studies in Early Posterior MIS Fixation for Non-SCI TL Spine Trauma of Living Adults
+* 29 мая: завершить первичный скрининг Randomized Controlled Trial Subset (RCTS) в SFMHSUSH (запрос: `(spinal fractures[mh]) AND surgery[sh] AND (randomized controlled trial[sb])`; разбивка по шагам следует)
+```
+шаг 0 - не исключено (N = …) [Records Not Excluded Step 0]
+шаг 1 - фаза 0-1 (N = …) [Records Excluded Step 1 Cadaver or Biomech or In Vitro or In Silico or Healthy]
+шаг 2 - дети (N = …) [Records Excluded Step 2 Pediatric]
+шаг 3 - не спина (N = …) [Records Excluded Step 3 Adult Not Spine]
+шаг 4 - не травма (N = …) [Records Excluded Step 4 Spine Other Than Trauma]
+шаг 5 - шея (N = …) [Records Excluded Step 5 C-Spine Trauma]
+шаг 6 - осложненная травма (N = …) [Records Excluded Step 6 TL Trauma SCI Present]
+шаг 7 - ВП (N = …) [Records Excluded Step 7 VA or RFA]
+шаг 8 - не хирургия (N = …) [Records Excluded Step 8 No Surgery in the Spine]
+````
 * 29 мая: выполнить поиск SFMHSUSH SSB (210 записей)
 * 6 июня: завершить первичный скрининг SFMHSUSH SSB (… не исключено, шаги не записывали)
 * 6 июня: выполнить поиск SFMHSUSH HSSS (1006 записей)
 * 7 июня: добавить `шаг 5b` и `шаг 6b`
 * 9 июня: добавить `шаг 5c` и `шаг 8a`
-* 23 июня: завершить первичный скрининг SFMHSUSH HSSS (… не исключено, `шаг 9` еще не существует, разбивка по шагам следует)
+* 23 июня: завершить первичный скрининг SFMHSUSH HSSS (`шаг 9` еще не существует, разбивка по шагам следует)
+```
+шаг 0 - не исключено (N = …) [Records Not Excluded Step 0]
 шаг 1 - фаза 0-1 (N = …) [Records Excluded Step 1 Animal or Cadaver or Biomech or In Vitro or In Silico or Healthy]
 шаг 2 - дети (N = …) [Records Excluded Step 2 Pediatric]
 шаг 3 - не спина (N = …) [Records Excluded Step 3 Adult Not Spine]
@@ -40,6 +45,7 @@ https://rayyan.qcri.org/reviews/40538
 шаг 7 - ВП (N = …) [Records Excluded Step 7 VA or RFA]
 шаг 8 - не хирургия (N = …) [Records Excluded Step 8 Operation on Vertebrae Not Main Topic]
 шаг 8a - не та хирургия (N = …) [Records Excluded Step 8a Surgery Not Directly Relevant]
+```
 * 24 июня: добавить в SFMHSUSH HSSS … неисключенные записи из SFMHSUSH RCTS (итого 1010 записей вместо ожидаемых 1006, причина не выяснена, из них неисключенных …, слияние исключенных по шагам не выполняли)
 * 27 июня: выполнить слияние … неисключенных SFMHSUSH HSSS и … неисключенных SSB (итого … не исключено с учетом пересечений)
 * 31 июля: добавить `шаг 9`
