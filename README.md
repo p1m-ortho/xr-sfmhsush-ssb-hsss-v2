@@ -20,7 +20,7 @@
 
 ## Критерии включения
 ### Критерии РКИ
-Cochrane Hadbook 5.1, box 6.3a (https://handbook-5-1.cochrane.org/chapter_6/box_6_3_a_cochrane_definitions_and_criteria_for_randomized.htm)
+[Cochrane Hadbook 5.1, box 6.3a](https://handbook-5-1.cochrane.org/chapter_6/box_6_3_a_cochrane_definitions_and_criteria_for_randomized.htm)
 
 ### Критерии СО
-Shojania 2001 (https://pubmed.gov/11525102)
+[Shojania 2001](https://pubmed.gov/11525102)
