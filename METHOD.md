@@ -23,3 +23,77 @@ You’re receiving notifications because you authored the thread.
 pussiatoday commented 16 days ago
 No description provided.
  @pussiatoday pussiatoday assigned SvetlanAlekseevna 16 days ago
+
+Перенести результаты первичного скрининга в Rayyan #2
+ Open	pussiatoday opened this issue 16 days ago · 3 comments
+Comments
+Assignees
+ @pussiatoday pussiatoday
+
+Labels
+None yet
+Milestone
+No milestone
+Notifications
+ Unsubscribe
+You’re receiving notifications because you were assigned.
+1 participant
+@pussiatoday
+ Lock conversation
+  Pin issue  
+ Transfer issue Beta
+ Delete issue Beta
+@pussiatoday
+  Member
+pussiatoday commented 16 days ago
+Должно быть 1117 из 1135 записей с зафиксированными в PubMed или СТМЗ 3 фактом неисключения или исключения и указанием шага, а 18 записей доскринивали до v2 глазами. Эти 18 записей должны получиться и здесь: https://www.ncbi.nlm.nih.gov/sites/myncbi/1bGT_5WlUb855/collections/57434404/public/
+
+Для этого вручную пройдем по всем 1135 записям в Rayyan, для каждой проверив по записям, какое решение для нее было вынесено (не исключать или исключить по первичному скринингу) и по какому шагу.
+
+Ссылка на мою коллекцию в PubMed со всеми 1135 результатами выдачи: https://www.ncbi.nlm.nih.gov/sites/myncbi/1bGT_5WlUb855/collections/57434379/public/
+ @pussiatoday pussiatoday self-assigned this 16 days ago
+@pussiatoday
+  Member
+pussiatoday commented 16 days ago • 
+edited 
+Порядок переноса следующий:
+
+нахожу данную запись в PubMed по PMID или как иначе,
+проверяю, состоит ли она в подборке с результатами выдачи (https://www.ncbi.nlm.nih.gov/sites/myncbi/1bGT_5WlUb855/collections/57434379/public/), и если нет, то это критическая ошибка, и я это документирую,
+смотрю, состоит ли она в какой-то из подборок с исключенными по шагам записям (а у меня в PubMed целый ряд таких подборок: по SFMHSUSH RCTS и по SFMHSUSH HSSS; сейчас сделаю их все публичными и приведу ссылки ниже),
+если состоит и в неисключенных (шаг 0), то иду в СТМЗ 3 и смотрю там записи (всю выдачу из СТМЗ 3 по этому проекту сейчас загружу в репу) и, если там запись исключена при скрининге и указан шаг (либо прописано, что это НРИ или НСО), исключаю по этому шагу, иначе не исключаю,
+если состоит и исключенных по остальным шагам, то исключаю в Rayyan по соответствующему шагу,
+если не состоит, то считаю эту запись одной из 18 добавленных в результате перехода на v. 2 и в целях потом проверить эту гипотезу добавляю эту запись в соответствующую коллекцию (https://www.ncbi.nlm.nih.gov/sites/myncbi/1bGT_5WlUb855/collections/57434404/public/).
+ @pussiatoday
+  Member
+pussiatoday commented 16 days ago
+SFMHSUSH RCTS
+
+Вниманию @SvetlanAlekseevna. По ссылкам ниже раскрыты количества записей, которые получились у меня по различным шагам скрининга. Не ходите по этим ссылкам, пока не закончите скрининг. Да, я понимаю, что все маскирование я уже сорвал, но что делать. Это первый такой большой скрининг, и здесь сейчас важнее все толково задокументировать. Дальше будем делать лучше.
+шаг 0 - не исключено (N = …) Records Not Excluded Step 0
+шаг 1 - фаза 0-1 (N = …) Records Excluded Step 1 Cadaver or Biomech or In Vitro or In Silico or Healthy
+шаг 2 - дети (N = …) Records Excluded Step 2 Pediatric
+шаг 3 - не спина (N = …) Records Excluded Step 3 Adult Not Spine
+шаг 4 - не травма (N = …) Records Excluded Step 4 Spine Other Than Trauma
+шаг 5 - шея (N = …) Records Excluded Step 5 C-Spine Trauma
+шаг 6 - осложненная травма (N = …) Records Excluded Step 6 TL Trauma SCI Present
+шаг 7 - ВП (N = …) Records Excluded Step 7 VA or RFA
+шаг 8 - не хирургия (N = …) Records Excluded Step 8 No Surgery in the Spine
+SFMHSUSH HSSS
+
+шаг 0 - не исключено (N = …) Records Not Excluded Step 0
+шаг 1 - фаза 0-1 (N = …) Records Excluded Step 1 Animal or Cadaver or Biomech or In Vitro or In Silico or Healthy
+шаг 2 - дети (N = …) Records Excluded Step 2 Pediatric
+шаг 3 - не спина (N = …) Records Excluded Step 3 Adult Not Spine
+шаг 4a - шея (N = …) Records Excluded Step 4a Adult C-Spine
+шаг 4b - таз (N = …) Records Excluded Step 4b Adult Pelvis
+шаг 5c - не травма (N = …) Records Excluded Step 5c TL Spine Other Than Trauma
+шаг 6 - осложненная травма (N = …) Records Excluded Step 6 TL Trauma SCI Present
+шаг 6b - последствия травм (N = …) Records Excluded Step 6b Late TL Trauma
+шаг 7 - ВП (N = …) Records Excluded Step 7 VA or RFA
+шаг 8 - не хирургия (N = …) Records Excluded Step 8 Operation on Vertebrae Not Main Topic
+шаг 8a - не та хирургия (N = …) Records Excluded Step 8a Surgery Not Directly Relevant
+ @pussiatoday
+  Member
+pussiatoday commented 16 days ago
+Все записи по проекту из СТМЗ 3 см. здесь: b4a5a48 — для сверки и уточнения шага, если запись в PubMed значится в неисключенных, см. выше #2 (comment).
