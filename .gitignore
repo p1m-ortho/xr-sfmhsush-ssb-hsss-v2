@@ -1,0 +1,7 @@
+.Rproj.user
+.Ruserdata
+*.docx
+*_files/
+*.pdf
+*.dotm
+*.doc
