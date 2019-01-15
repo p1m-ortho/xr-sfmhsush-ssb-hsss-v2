@@ -2,10 +2,10 @@
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" name-delimiter=", " page-range-format="expanded" default-locale="ru-RU">
   <!-- This style was edited with the Visual CSL Editor (http://editor.citationstyles.org/visualEditor/) -->
   <info>
-    <title>GOST 7.1-2003 alpha</title>
-    <title-short>GOST 7.1-2003 alpha</title-short>
-    <id>http://www.zotero.org/styles/gost-71-2003-alpha</id>
-    <link href="http://www.zotero.org/styles/gost-71-2003-alpha" rel="self"/>
+    <title>Russian GOST 7.1-2003</title>
+    <title-short>GOST 7.1-2003</title-short>
+    <id>http://www.zotero.org/styles/gost-7-1-2003</id>
+    <link href="https://www.zotero.org/styles/gost-7-1-2003" rel="self"/>
     <link href="http://protect.gost.ru/document.aspx?control=7&amp;id=129865" rel="documentation"/>
     <link href="https://standartgost.ru/g/ГОСТ_7.1-2003" rel="documentation"/>
     <author>
@@ -13,11 +13,12 @@
     </author>
     <author>
       <name>Pavel Zhelnov</name>
+      <email>pzhelnov@p1m.org</email>
       <uri>http://p1m.org</uri>
     </author>
     <category citation-format="author-date"/>
     <category field="medicine"/>
-    <summary>GOST 7.1-2003 style, alpha yet. Book, Article, and InProceedings tested only as of yet, still not fully supported. Citations in author-date format. Labels, if PMID set, in English, else in Russian. Sorted alphabetically.</summary>
+    <summary>GOST 7.1-2003 style, beta, based on Russian GOST R 7.0.5-2008 (numeric, sorted alphabetically, Russian) by Dmitriy Rybakov. Book, Article, and InProceedings tested only as of yet, still not fully supported. Citations in author-date format. Labels, if PMID set, in English, else in Russian. Sorted alphabetically.</summary>
     <updated>2019-01-09T13:59:47+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 License</rights>
   </info>
@@ -171,7 +172,7 @@
     <sort>
       <key variable="citation-number"/>
     </sort>
-    <layout delimiter="; " prefix="(" suffix=")">
+    <layout delimiter="; " prefix="" suffix="">
       <text macro="citation"/>
     </layout>
   </citation>
