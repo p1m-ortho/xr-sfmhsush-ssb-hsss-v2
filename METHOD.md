@@ -58,6 +58,16 @@
 
 Кстати, судя по содержанию форварда, заявка при передаче обрезалась на «presence of health  librarianship locally», что вызывает сожаление.
 
+Наш ответ в PRESS Forum:
+
+> Dear Doug,
+>
+> Though sorry to hear your decision, I am mindful of the professional education requirements in place and still would like to thank you and the PRESS Forum staff for the opportunity.
+>
+> Sincerely,
+>
+> P. S. I feel urged to inform you the original request letter had been truncated, judging from the forwarded part of your letter, at exactly 1,015 characters. If it was really the case, I would suggest there be a disclaimer placed within the access request form, or the restriction on the character count be removed.
+
 -----
 
 В [блоге Cindy Schmidt](http://pubmedsearches.blogspot.com) просмотрел все записи (с 3 июля 2009 по 12 октября 2018), и актуального в плане позвоночника или хирургии позвоночника обнаружил только:
