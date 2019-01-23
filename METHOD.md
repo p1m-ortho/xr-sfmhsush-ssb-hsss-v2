@@ -41,11 +41,28 @@
 >
 > It has been both interesting and inspiring to watch methodological robustness of electronic search grow over the last years, a development by all means worth supporting. In my institution, the need for the change, too, has been acknowledged, so a couple of systematic reviews are underway (neither has made it to international registration yet, though we did start pushing progress to public repositories just recently, available in Russian at p1m.org).
 >
-> I heard of this forum from the CADTH website. Although not formally trained as health librarian, I believe my knowledge of and experience with our most used search engines and related methodological advances would be adequate to follow the process of search strategies peer review or request/contribute to it, and would really love to take part. Furthermore, presence of health librarianship locally is scarce at best, and such a participation would be invaluable for our research team. So please hook me up if appropriate, and thank you for the opportunity.
+> I heard of this forum from the CADTH website. Although not formally trained as health librarian, I believe my knowledge of and experience with our most used search engines and related methodological advances would be adequate to follow the process of search strategies peer review or request/contribute to it, and would really love to take part. Furthermore, presence of health  librarianship locally is scarce at best, and such a participation would be invaluable for our research team. So please hook me up if appropriate, and thank you for the opportunity.
 >
 > Please feel free to contact me on this matter.
 >
 > Sincerely
+
+-----
+
+В [блоге Cindy Schmidt](http://pubmedsearches.blogspot.com) просмотрел все записи (с 3 июля 2009 по 12 октября 2018), и актуального в плане позвоночника или хирургии позвоночника обнаружил только:
+
+* [surgery (orthopedic) -- keywords](http://pubmedsearches.blogspot.com/2011/05/surgery-neurosurgery-keywords.html)
+* [surgery (neurosurgery) -- keywords](http://pubmedsearches.blogspot.com/2011/05/surgery-neurosurgery-keywords.html)
+* [Surgery (general terms) – keywords](http://pubmedsearches.blogspot.com/2011/05/surgery-general-terms-keywords.html)
+* [spinal cord injuries -- keyword](http://pubmedsearches.blogspot.com/2010/05/spinal-cord-injuries-keyword.html)
+
+Все эти стратегии:
+
+* не валидизированы,
+* не рецензированы,
+* заявлены автором как невсеобъемлющие.
+
+Поэтому имеют весьма ориентировочное значение.
 
 -----
 
