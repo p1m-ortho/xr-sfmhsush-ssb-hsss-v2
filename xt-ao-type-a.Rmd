@@ -153,22 +153,20 @@ Synthesis of results (пункт 21). Summarize and/or present the charting resu
 > Explanation and Elaboration. Results may be pre- sented as a “map” of the data in the form of a diagram or table (Appendix Figure 4) or in a descriptive format, whichever aligns best with the review's objectives (4, 5).
 
 ## 2.2 Методы обзора литературы
-Protocol and registration (пункт 5). Indicate whether a review protocol exists; state if and where it can be accessed (e.g., a Web address); and if available, provide registration information, including the registration number.
+Обзор литературы выполнен в соответствии с его планом (протоколом), составленным и опубликованным (https://git.io/fhzlL) до начала проведения поисков (пункт 5).
 
-> Example
->
-> Our protocol was drafted using the Preferred Reporting Items for Systematic Reviews and Meta-analysis Proto- cols (PRISMA-P . . . ), which was revised by the research team and members of Health Canada, and was dissem- inated through our programme's Twitter account (@KT- Canada) and newsletter to solicit additional feedback. The final protocol was registered prospectively with the Open Science Framework on 6 September 2016 (https: //osf.io/kv9hu/). (40)
->
-> Explanation and Elaboration. A protocol should be developed a priori, and it is important to include infor- mation about the protocol in the scoping review (4, 5). To ensure transparency and reduce duplication of work, the protocol should ideally be registered (for ex- ample, with the Open Science Framework [41]), and authors may wish to publish it in a journal (such as Sys- tematic Reviews [42], JBI Database of Systematic Re- views and Implementation Reports [43], or BMJ Open [44]). If the protocol is not publicly available, details about how to access it (for example, on request from the corresponding author) should be provided. If the scoping review is an update of an existing review, the original scoping review should be cited.
- 
-Eligibility criteria (пункт 6). Specify characteristics of the sources of evidence used as eligibility criteria (e.g., years considered, language, and publication status), and provide a rationale.
+> Решается вопрос о регистрации обзора в международном регистре систематических обзоров PROSPERO (https://www.crd.york.ac.uk/prospero).
 
-> Example
->
-> . . . to be included in the review, papers needed to measure or focus on specific dimensions of treatment burden, developed in the conceptual framework (e.g. financial, medication, administrative, lifestyle, health- care and time/travel). Peer-reviewed journal papers were included if they were: published between the pe- riod of 2000–2016, written in English, involved human participants and described a measure for burden of treatment, e.g. including single measurements, mea- suring and/or incorporating one or two dimensions of burden of treatment. Quantitative, qualitative and mixed-method studies were included in order to con- sider different aspects of measuring treatment burden. Papers were excluded if they did not fit into the concep- tual framework of the study, focused on a communicable chronic condition, for example human immunodeficiency virus infection and acquired immune deficiency syn- drome (HIV/AIDS) or substance abuse. Papers talking about carer burden, in addition to patient burden of treat- ment, were also included. (45)
->
-> Explanation and Elaboration. Inclusion criteria should be provided to allow the reader to understand the types of evidence sources that will be included in the review. The rationale for each inclusion criterion should be clearly described. If limitations were in place by year, language, publication status, or other charac- teristics, the authors should specify these and provide a rationale for each.
+> Явно оговорить, что работа над обзором начата давно, частично была выполнена, и это новая редакция.
  
+Использовали ступенчатые критерии включения работ в обзор («шаги») — см. приложение (пункт 6). Первичный отбор работ («1-й этап скрининга») проводили по заголовку и аннотации, ступенчато оценивая их соответствие критериям: при выявлении несоответствия исключали такую работу по наиболее раннему шагу. Для работ, которые по завершении 1-го этапа скрининга не были исключены ни по одному из шагов, предпринимали поиск полных текстов и повторяли процедуру сопоставления с критериями по полным текстам («2-й этап скрининга»). Работы, которые не были исключены по полному тексту, включали в подборку обзора.
+
+> Список шагов — в работе, будет изменен. Также будем уточнять момент перехода от скрининга к чартингу.
+
+Ограничений по дате и языку публикации в соответствии со сложившейся практикой (???) не накладывали. По типу публикации ограничились статьями в рецензируемых научных журналах. При принятии такого решения руководствовались, с одной стороны, таким представлением, что законченные клинические исследования в конечном счете получают отражение в рецензируемой научной печати. С другой стороны, учитывали, что поиск по нерецензируемой («серой») литературе значительно затруднен, и на сегодняшний день в специальной литературе нет единого мнения о том, принципиально возможно ли такой поиск выполнить на систематической основе (???).
+
+> Добавить ссылки.
+
 Information sources* (пункт 7). Describe all information sources in the search (e.g., databases with dates of coverage and contact with authors to identify additional sources), as well as the date the most recent search was
 executed.
 
@@ -240,5 +238,23 @@ Synthesis of results (пункт 14). Describe the methods of handling and summa
 > We grouped the studies by the types of behavior they analyzed, and summarized the type of settings, popu- lations and study designs for each group, along with the measures used and broad findings. Where we iden- tified a systematic review, we counted the number of studies included in the review that potentially met our inclusion criteria and noted how many studies had been missed by our search. (54)
 >
 > Explanation and Elaboration. The aim of the syn- thesis is to present the range of evidence that was iden- tified to answer the review question or meet the objec- tives of the scoping review (4, 5). Authors should clearly describe how the evidence will be presented: in a nar- rative format, table, or visual representation, including a map or diagram.
+
+# Приложение. Ступенчатые критерии («шаги») включения работ в обзор литературы
+* Шаг 0 («не исключено»): все еще не исключено по завершении этапа скрининга.
+* Шаг 1 («фаза 0-1»): исследования на животных, трупах, стендовые, in vitro, in silico или на здоровых лицах.
+* Шаг 2 («дети»): детская популяция.
+* Шаг 3 («не спина»): не позвоночник.
+* Шаг 4 («шея»): позвоночник, но шейный отдел.
+* Шаг 5 («таз»): позвоночник, но таз.
+* Шаг 6 («не травма»): позвоночник, но не травма.
+* Шаг 7 («осложненная травма»): осложненная грудо-поясничная травма.
+* Шаг 8 («последствия травм»): старая грудо-поясничная травма.
+* Шаг 9 («не хирургия»): хирургия позвоночника не рассматривается.
+* Шаг 10 («ВП»): вертебропластика, РЧА и смежные пункционные методики.
+* Шаг 11 («не та хирургия»): хирургия, прямо не имеющая отношения к теме.
+* Шаг 12 («НРИ или НСО»): нерандомизированное испытание или несистематический обзор.
+* Шаг 13 («не тот дизайн»): дизайн не подходит под рассмотрение.
+* Шаг 14 («не то сравнение»): группа сравнения отлична от интересующей.
+* Шаг 15 («не те исходы»): нет интересующих исходов.
 
 # Список литературы
