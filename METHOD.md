@@ -75,6 +75,17 @@
 
 -----
 
+На [MedTerm Search Assist](https://www.hsls.pitt.edu/terms/) в списке терминов не видно ничего актуального, кроме [Trauma](https://www.hsls.pitt.edu/terms/term.php?t=142).
+
+Список ключевых слов:
+
+* не валидизирован,
+* не рецензирован.
+
+Поэтому также имеет весьма ориентировочное значение.
+
+-----
+
 Для конвертации синтаксиса из Ovid в PubMed используем [Medline Transpose](https://medlinetranspose.github.io).
 
 #### MeSH
