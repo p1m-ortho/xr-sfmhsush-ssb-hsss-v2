@@ -47,6 +47,15 @@
 >
 > Sincerely
 
+Ответ (письмо от 2018-01-23T21:57:00+0300):
+
+> Dear Pavel,
+>
+> Thank you for your interest in PRESSforum.  As you have noted, the scope of PRESSforum is at this time limited to professional librarians involving in developing and executing search strategies for systematic reviews/HTAs.  I would suggest that you contact a librarian at your institution for assistance with search strategy development.  Alternatively, Cochrane Russia may be able to provide assistance.
+>
+> -- 
+> Best wishes,
+
 -----
 
 В [блоге Cindy Schmidt](http://pubmedsearches.blogspot.com) просмотрел все записи (с 3 июля 2009 по 12 октября 2018), и актуального в плане позвоночника или хирургии позвоночника обнаружил только:
