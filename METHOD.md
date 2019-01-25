@@ -129,7 +129,7 @@ MeSH: MeSH DESCRIPTOR spinal injuries EXPLODE ALL TREES
 
 > 35 records found for MeSH DESCRIPTOR spinal injuries EXPLODE ALL TREES
 
-Экспорт в `PROSPERO_-_MeSH.ris` (загрузить в репу).
+Экспорт в [PROSPERO_-_MeSH.ris](https://raw.githubusercontent.com/p1m-ortho/xt-ao-type-a/21388e5c36f9a467ea52b05a3b7c64625e03c6b5/PROSPERO_-_MeSH.ris).
 
 #### Свободнотекстовый поиск
 
@@ -155,7 +155,7 @@ Abudou 2013 (MEDLINE/Ovid Online):
 
 > 168 records found for (("burst" AND (fract* OR injur*)) OR ("compression" AND (fract* OR injur*)))
 
-Экспорт в `PROSPERO_-_Free_text.ris` (загрузить в репу).
+Экспорт в [PROSPERO_-_Free_text.ris](https://raw.githubusercontent.com/p1m-ortho/xt-ao-type-a/21388e5c36f9a467ea52b05a3b7c64625e03c6b5/PROSPERO_-_Free_text.ris).
 
 ## Работа над материалом и результатами
 Выполним поиски еще до завершения и публикации протокола, чтобы грамотно спланировать объем работы. Это и результаты отразим в протоколе. Также отпилотием форму чартинга еще до публикации протокола.
