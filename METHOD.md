@@ -112,14 +112,18 @@
 
 Abudou 2013 (MEDLINE/Ovid Online):
 
-> 1 exp Spinal Injuries/ (16163)
-> 2 Thoracic Vertebrae/ (14419)
-> 3 Lumbar Vertebrae/ (35605)
-> 4 or/2-3 (43539)
+```
+1 exp Spinal Injuries/ (16163)
+2 Thoracic Vertebrae/ (14419)
+3 Lumbar Vertebrae/ (35605)
+4 or/2-3 (43539)
+```
 
 В синтаксисе PROSPERO:
 
-> MeSH: MeSH DESCRIPTOR spinal injuries EXPLODE ALL TREES
+```
+MeSH: MeSH DESCRIPTOR spinal injuries EXPLODE ALL TREES
+```
 
 Результат:
 
@@ -131,15 +135,21 @@ Abudou 2013 (MEDLINE/Ovid Online):
 
 Abudou 2013 (MEDLINE/Ovid Online):
 
-> 9 ((burst adj5 (fract$ or injur$)) or (compression adj5 (fract$ or injur$))).tw. (5670)
+```
+9 ((burst adj5 (fract$ or injur$)) or (compression adj5 (fract$ or injur$))).tw. (5670)
+```
 
 В синтаксисе PubMed (через Medline Transpose):
 
-> (("burst"[tiab] AND (fract*[tiab] OR injur*[tiab])) OR ("compression"[tiab] AND (fract*[tiab] OR injur*[tiab])))
+```
+(("burst"[tiab] AND (fract*[tiab] OR injur*[tiab])) OR ("compression"[tiab] AND (fract*[tiab] OR injur*[tiab])))
+```
 
 В синтаксисе PROSPERO:
 
-> (("burst" AND (fract* OR injur*)) OR ("compression" AND (fract* OR injur*)))
+```
+(("burst" AND (fract* OR injur*)) OR ("compression" AND (fract* OR injur*)))
+```
 
 Результат:
 
@@ -148,6 +158,6 @@ Abudou 2013 (MEDLINE/Ovid Online):
 Экспорт в `PROSPERO_-_Free_text.ris` (загрузить в репу).
 
 ## Работа над материалом и результатами
-Выполним поиски еще до завершения и публикации протокола, чтобы грамотно спланировать объем работы. Это и результаты отразим в протоколе. Также отпилотируем форму чартинга еще до публикации протокола.
+Выполним поиски еще до завершения и публикации протокола, чтобы грамотно спланировать объем работы. Это и результаты отразим в протоколе. Также отпилотием форму чартинга еще до публикации протокола.
 
 Подключим к работе и других участников.
