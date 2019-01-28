@@ -20,7 +20,7 @@
 8 records found for ("scoping review"):TI
 ```
 
-Экспорт `PROSPERO_-_ScR.ris` прилагается (добавить ссылку).
+Экспорт [PROSPERO_-_ScR.ris](https://raw.githubusercontent.com/p1m-ortho/xt-ao-type-a/8fc623c2ef509f17cfeb3a90c809befdc76895a1/PROSPERO_-_ScR.ris) прилагается.
 
 Так что PROSPERO не годится для регистрации нашего обзора о состоянии проблемы (scoping review).
 
@@ -28,9 +28,9 @@
 
 [google.com/search?q=register+"scoping reviews"](https://google.com/search?q=register+%22scoping%20reviews%22)
 
-По результатам изучения топ-10 выдачи предлагаются еще Cochrane Library, JBI и Syst Rev. Кокрейн и JBI, похоже, регистрирует только свои обзоры. Публикация в Syst Rev затянет дело; кроме того, публикация у них платная ([«£1390.00/$2040.00/€1690.00 for each article accepted for publication, plus VAT or local taxes where applicable»](https://systematicreviewsjournal.biomedcentral.com/submission-guidelines/fees-and-funding)).
+По результатам изучения топ-10 выдачи предлагаются еще Cochrane Library, JBI и Syst Rev. Кокрейн и JBI, похоже, регистрируют только свои обзоры. Публикация в Syst Rev затянет дело; кроме того, публикация у них платная ([«£1390.00/$2040.00/€1690.00 for each article accepted for publication, plus VAT or local taxes where applicable»](https://systematicreviewsjournal.biomedcentral.com/submission-guidelines/fees-and-funding)).
 
-[Tricco 2018](https://pubmed.gov/30178033) приводят [Open Science Foundation](https://osf.io) в качестве примера в пункте про регистрацию. Рассмотрим.
+[Tricco 2018](https://pubmed.gov/30178033) приводят [Open Science Framework](https://osf.io) в качестве примера в пункте про регистрацию. Рассмотрим.
 
 Вызывает вопрос, насколько регистрация на OSF несет какие-либо преимущества в дополнение к ведению публичного репозитория на GitHub. Дело в том, что, как мы представляем, регистрация призвана обеспечить возможность (а) раннего обнаружения препринта протокола научным сообществом, особенно исследователями, планирующими сходные работы, чтобы исключить дублирование усилий, и (б) сравнить итоговую работу с изначальной версией протокола, не доступной после регистрации изменению со стороны авторов. Пункт (б) при этом и так полностью реализуется при наличии публичного репозитория на GitHub. Реализация пункта (а) на OSF — сомнительна, поскольку не имеем свидетельств ее популярности в качестве регистра обзоров литературы, однако необходимо попытаться такие свидетельства получить.
 
