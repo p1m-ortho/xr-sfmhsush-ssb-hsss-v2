@@ -28,6 +28,10 @@
 
 [google.com/search?q=register+"scoping reviews"](https://google.com/search?q=register+%22scoping%20reviews%22)
 
+По результатам изучения топ-10 выдачи предлагаются еще Cochrane Library, JBI и Syst Rev. Кокрейн и JBI, похоже, регистрирует только свои обзоры. Публикация в Syst Rev затянет дело; кроме того, публикация у них платная ([«£1390.00/$2040.00/€1690.00 for each article accepted for publication, plus VAT or local taxes where applicable»](https://systematicreviewsjournal.biomedcentral.com/submission-guidelines/fees-and-funding)).
+
+[Tricco 2018](https://pubmed.gov/30178033) приводят [Open Science Foundation](https://osf.io) в качестве примера в пункте про регистрацию. Рассмотрим.
+
 Все аннотации постараемся согласовывать с PRISMA-Abstracts.
 
 ### Зондируем почву в PROSPERO
