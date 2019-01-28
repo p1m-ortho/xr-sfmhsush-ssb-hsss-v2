@@ -14,7 +14,19 @@
 
 Материалы и методы по обзору отражаем для удобства в соответствии с пунктами [PRISMA-ScR](http://prisma-statement.org/Extensions/ScopingReviews). Отсылки к пунктам удалим (для лучшей читаемости) в самый последний момент, чтобы у нас была также и версия с помеченными пунктами, что может быть удобно при написании потом статьи, если решим как-то комплаентность с PRISMA-ScR там отразить.
 
-Постараемся зарегистрировать в PROSPERO (затем добавить в протокол ссылку).
+~~Постараемся зарегистрировать в PROSPERO (затем добавить в протокол ссылку).~~ Отбой с PROSPERO: ScR по-прежнему не соответствуют критериям включения в него ([«Scoping reviews and literature reviews are not eligible for inclusion in PROSPERO»](https://www.crd.york.ac.uk/prospero/#guidancenotes)). При этом в самом деле:
+
+```
+8 records found for ("scoping review"):TI
+```
+
+Экспорт `PROSPERO_-_ScR.ris` прилагается (добавить ссылку).
+
+Так что PROSPERO не годится для регистрации нашего обзора о состоянии проблемы (scoping review).
+
+Посмотрим, есть ли бесплатные проспективные международные регистры, которые явно допускают включение ScR:
+
+[google.com/search?q=register+"scoping reviews"](https://google.com/search?q=register+%22scoping%20reviews%22)
 
 Все аннотации постараемся согласовывать с PRISMA-Abstracts.
 
@@ -156,6 +168,10 @@ Abudou 2013 (MEDLINE/Ovid Online):
 > 168 records found for (("burst" AND (fract* OR injur*)) OR ("compression" AND (fract* OR injur*)))
 
 Экспорт в [PROSPERO_-_Free_text.ris](https://raw.githubusercontent.com/p1m-ortho/xt-ao-type-a/21388e5c36f9a467ea52b05a3b7c64625e03c6b5/PROSPERO_-_Free_text.ris).
+
+-----
+
+Итак, подытоживая состояние работы по подготовке запроса (первоначально для PROSPERO, но проработанный материал затем учтем и при разработке основного запроса).
 
 ## Работа над материалом и результатами
 Выполним поиски еще до завершения и публикации протокола, чтобы грамотно спланировать объем работы. Это и результаты отразим в протоколе. Также отпилотием форму чартинга еще до публикации протокола.
