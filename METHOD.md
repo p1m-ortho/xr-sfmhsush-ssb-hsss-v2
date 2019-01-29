@@ -276,9 +276,10 @@ Abudou 2013 (MEDLINE/Ovid Online):
 * eLIBRARY.RU.
 * Scopus.
 * The Cochrane Library.
-* CRS.
+* [CRS](http://crso.cochrane.org).
 * [ОЭБД РГБ](http://diss.rsl.ru/?menu=disscatalog).
 * PROSPERO.
+* [CRD](https://www.crd.york.ac.uk/CRDWeb/).
 * ICTRP.
 * ClinicalTrials.gov.
 * Списки литературы всех включенных по 2-му этапу скрининга.
