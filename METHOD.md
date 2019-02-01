@@ -23,6 +23,11 @@
 ### Уровень сложности: легкий
 
 1. Завершить скрининг [SFMHSUSH SSB HSSS v2](https://github.com/p1m-ortho/xr-sfmhsush-ssb-hsss-v2).
+    * ПВЖ [переносит в Rayyan](https://github.com/p1m-ortho/xr-sfmhsush-ssb-hsss-v2/commit/8831c67bc0e98d641416d7994f86720d64907c82) сведения по [скринингу, который он выполнил ранее](https://github.com/p1m-ortho/xr-sfmhsush-ssb-hsss-v2/commit/b62c1b7818788dbd4abe30093d7cda76a2c72e09);
+    * САС [с некоторых пор выполняет первичный скрининг](https://github.com/p1m-ortho/xr-sfmhsush-ssb-hsss-v2/commit/ea0b926c0d470256e3e3cd5bdc7f76d4fe561d13);
+    * ЭБД [также начал выполнять первичный скрининг](https://github.com/p1m-ortho/xt-ao-type-a/commit/a80a11d35a533b870861d5bce7693233bdb40af1).
+
+    Все дальнейшие сведения о методах по этому скринингу и о ходе работ см. в [xr-sfmhsush-ssb-hsss-v2](https://github.com/p1m-ortho/xr-sfmhsush-ssb-hsss-v2). Здесь теперь отметим только тогда, когда скрининг завершим.
 1. Изучить [biomedcentral.com/collections/registrationseries](https://www.biomedcentral.com/collections/registrationseries).
 1. Посмотреть [руководство JBI по ScR](http://joannabriggs.org/assets/docs/sumari/Reviewers-Manual_Methodology-for-JBI-Scoping-Reviews_2015_v2.pdf), особенно на тему (а) обоснования необходимости регистрации, (б) проектирования поисков, (в) рационального перекрестного скрининга составом из 3 человек и более и (г) рационального перекрестного извлечения (картирования) составом из 3 человек и более.
 1. Посмотреть [Peters 2015](https://pubmed.gov/26134548), особенно на тему (а) обоснования необходимости регистрации, (б) проектирования поисков, (в) рационального перекрестного скрининга составом из 3 человек и более и (г) рационального перекрестного извлечения (картирования) составом из 3 человек и более.
