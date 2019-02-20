@@ -136,7 +136,7 @@ VA,vertebral augmentation
 Порядок переноса следующий:
 
 * экспортирую из каждой нижеприведенной подборки с исключенными в формате ~~MEDLINE~~PubMed XML, затем ~~создаю новую базу в PortoDB и оформляю экспорт подборки под CSV для импорта в PortoDB, при этом в отдельное поле проставляю ссылку на подборку (список подборок добавляю отдельной таблицей в ту же БД)~~ загружаю их ~~отдельными обзорами~~, группируя по шагам (HSSS + RCTS) в соответствии с таблицей сопоставления (ниже), отдельными обзорами в Рэйан,
-* **с учетом обратной несовместимости HSSS с RCTS, начиная с шага 4, записи, исключенные по шагу 4 и далее SFMHSUSH RCTS, не подлежат выгрузке в Рэйан, а соответствующие записи подлежат перескринингу по HSSS,**
+* **с учетом обратной несовместимости HSSS с RCTS, начиная с шага 4, записи, исключенные по шагу 4 и далее SFMHSUSH RCTS (см. список несовместимых подборок ниже), не подлежат выгрузке в Рэйан, а соответствующие записи подлежат перескринингу по HSSS,**
 * исключаю в пределах каждого из этих обзоров все записи по соответствующему подборке шагу,
 * копирую из этих обзоров вместе с решениями в основной обзор,
 * ~~нахожу данную запись в ~~PubMed~~ БД по PMID или как иначе,~~
@@ -192,6 +192,16 @@ SFMHSUSH HSSS
 | шаг 8 - не хирургия (N = …) Records Excluded Step 8 No Surgery in the Spine                             | шаг 8 - не хирургия (N = …) Records Excluded Step 8 Operation on Vertebrae Not Main Topic                         |
 | —                                                                                                       | шаг 8a - не та хирургия (N = …) Records Excluded Step 8a Surgery Not Directly Relevant                            |
 | –                                                                                                       | шаг 9 - НСО или НРИ (N = …) Records Excluded Step 9a NSR or NRS                                                   |
+
+Не совместимые с SFMHSUSH HSSS подборки (не подлежат загрузке в Рэйан и использованию в этом скрининге):
+
+* [Records Excluded Step 4 Spine Other Than Trauma] RCTs - High QoE Studies in Early Posterior MIS Fixation for Non-SCI TL Spine Trauma of Living Adults;
+* [Records Excluded Step 5 C-Spine Trauma] RCTs - High QoE Studies in Early Posterior MIS Fixation for Non-SCI TL Spine Trauma of Living Adults;
+* [Records Excluded Step 6 TL Trauma SCI Present] RCTs - High QoE Studies in Early Posterior MIS Fixation for Non-SCI TL Spine Trauma of Living Adults;
+* [Records Excluded Step 7 VA or RFA] RCTs - High QoE Studies in Early Posterior MIS Fixation for Non-SCI TL Spine Trauma of Living Adults;
+* [Records Excluded Step 8 No Surgery in the Spine] RCTs - High QoE Studies in Early Posterior MIS Fixation for Non-SCI TL Spine Trauma of Living Adults.
+
+Всего 77 записей (по подборкам отдельно не привожу из-за опасений о возможном срыве маскирования).
 
 Все записи по проекту из СТМЗ 3 см. здесь: b4a5a48f7b70235ab93e11808f9d222074d9b229 — для сверки и уточнения шага, если запись в PubMed значится в неисключенных, см. выше.
 
