@@ -6,6 +6,8 @@
 
 ЭБД: см. [95200dc732d38952bd53ed9064c45e2deced10bd](https://github.com/p1m-ortho/xt-ao-type-a/commit/95200dc732d38952bd53ed9064c45e2deced10bd).
 
+Перенос даты завершения скрининга на 22.02.19.
+
 ПВЖ: см. [33f18411ca14dd7c1ca11583917b12197483069d](https://github.com/p1m-ortho/xt-ao-type-a/commit/33f18411ca14dd7c1ca11583917b12197483069d).
 
 ### Расчет необходимой скорости работы
