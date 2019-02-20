@@ -135,7 +135,7 @@ VA,vertebral augmentation
 
 Порядок переноса следующий:
 
-* экспортирую из каждой нижеприведенной подборки с **исключенными** в формате ~~MEDLINE~~PubMed XML, затем ~~создаю новую базу в PortoDB и оформляю экспорт подборки под CSV для импорта в PortoDB, при этом в отдельное поле проставляю ссылку на подборку (список подборок добавляю отдельной таблицей в ту же БД)~~ загружаю их ~~отдельными обзорами~~, группируя по шагам (HSSS + RCTS), отдельными обзорами в Рэйан,
+* экспортирую из каждой нижеприведенной подборки с **исключенными** в формате ~~MEDLINE~~PubMed XML, затем ~~создаю новую базу в PortoDB и оформляю экспорт подборки под CSV для импорта в PortoDB, при этом в отдельное поле проставляю ссылку на подборку (список подборок добавляю отдельной таблицей в ту же БД)~~ загружаю их ~~отдельными обзорами~~, группируя по шагам (HSSS + RCTS) в соответствии с таблицей сопоставления (ниже), отдельными обзорами в Рэйан,
 * **исключаю в пределах каждого из этих обзоров все записи по соответствующему подборке шагу,**
 * **копирую из этих обзоров вместе с решениями в основной обзор,**
 * ~~нахожу данную запись в ~~PubMed~~ БД по PMID или как иначе,~~
@@ -171,6 +171,24 @@ SFMHSUSH HSSS
 шаг 7 - ВП (N = …) Records Excluded Step 7 VA or RFA
 шаг 8 - не хирургия (N = …) Records Excluded Step 8 Operation on Vertebrae Not Main Topic
 шаг 8a - не та хирургия (N = …) Records Excluded Step 8a Surgery Not Directly Relevant
+
+Таблица сопоставления критериев SFMHSUSH RCTS и SFMHSUSH HSSS
+
+| SFMHSUSH RCTS                                                                                           | SFMHSUSH HSSS                                                                                                     |
+|---------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
+| шаг 0 - не исключено (N = …) Records Not Excluded Step 0                                                | шаг 0 - не исключено (N = …) Records Not Excluded Step 0                                                          |
+| шаг 1 - фаза 0-1 (N = …) Records Excluded Step 1 Cadaver or Biomech or In Vitro or In Silico or Healthy | шаг 1 - фаза 0-1 (N = …) Records Excluded Step 1 Animal or Cadaver or Biomech or In Vitro or In Silico or Healthy |
+| шаг 2 - дети (N = …) Records Excluded Step 2 Pediatric                                                  | шаг 2 - дети (N = …) Records Excluded Step 2 Pediatric                                                            |
+| шаг 3 - не спина (N = …) Records Excluded Step 3 Adult Not Spine                                        | шаг 3 - не спина (N = …) Records Excluded Step 3 Adult Not Spine                                                  |
+| шаг 5 - шея (N = …) Records Excluded Step 5 C-Spine Trauma                                              | шаг 4a - шея (N = …) Records Excluded Step 4a Adult C-Spine                                                       |
+| —                                                                                                       | шаг 4b - таз (N = …) Records Excluded Step 4b Adult Pelvis                                                        |
+| шаг 4 - не травма (N = …) Records Excluded Step 4 Spine Other Than Trauma                               | шаг 5c - не травма (N = …) Records Excluded Step 5c TL Spine Other Than Trauma                                    |
+| шаг 6 - осложненная травма (N = …) Records Excluded Step 6 TL Trauma SCI Present                        | шаг 6 - осложненная травма (N = …) Records Excluded Step 6 TL Trauma SCI Present                                  |
+| —                                                                                                       | шаг 6b - последствия травм (N = …) Records Excluded Step 6b Late TL Trauma                                        |
+| шаг 7 - ВП (N = …) Records Excluded Step 7 VA or RFA                                                    | шаг 7 - ВП (N = …) Records Excluded Step 7 VA or RFA                                                              |
+| шаг 8 - не хирургия (N = …) Records Excluded Step 8 No Surgery in the Spine                             | шаг 8 - не хирургия (N = …) Records Excluded Step 8 Operation on Vertebrae Not Main Topic                         |
+| —                                                                                                       | шаг 8a - не та хирургия (N = …) Records Excluded Step 8a Surgery Not Directly Relevant                            |
+| –                                                                                                       | шаг 9 - НСО или НРИ (N = …) Records Excluded Step 9a NSR or NRS                                                   |
 
 Все записи по проекту из СТМЗ 3 см. здесь: b4a5a48f7b70235ab93e11808f9d222074d9b229 — для сверки и уточнения шага, если запись в PubMed значится в неисключенных, см. выше.
 
