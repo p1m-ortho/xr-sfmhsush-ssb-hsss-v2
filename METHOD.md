@@ -265,6 +265,18 @@ SFMHSUSH HSSS
 
 Сейчас примусь за загрузку туда соответственных XML.
 
+О! Что-то у нас косяк:
+
+Шаг 8 должен быть по HSSS (взято из коллекции PubMed):
+
+> [Records Excluded Step 8 Operation on Vertebrae Not Main Topic]
+
+А у нас [в критериях по обзору](https://github.com/p1m-ortho/xr-sfmhsush-ssb-hsss-v2/blob/8a0e0203684cb3e6fd4522d08bdfb254dfd467cb/README.md)
+
+> [Records Excluded Step 8 No Surgery in the Spine]
+
+Сейчас не будем уже ничего менять, потому что все скринили по этому критерию. Но вообще безобразие.
+
 -----
 
 Все записи по проекту из СТМЗ 3 см. здесь: b4a5a48f7b70235ab93e11808f9d222074d9b229 — для сверки и уточнения шага, если запись в PubMed значится в неисключенных, см. выше.
