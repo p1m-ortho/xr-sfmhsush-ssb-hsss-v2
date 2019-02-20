@@ -245,6 +245,28 @@ SFMHSUSH HSSS
 
 Всего 77 записей (по подборкам отдельно не привожу из-за опасений о возможном срыве маскирования).
 
+-----
+
+Закончил создание в Рэйане обзоров под подборки (начало см. в f38f44840757926ec97667855c84faebd477d4e6):
+
+```
+2019-02-20: SFMHSUSH HSSS v2: шаг 8a - не та хирургия [Records Excluded Step 8a Surgery Not Directly Relevant] (0 articles)
+2019-02-20: SFMHSUSH HSSS v2: шаг 8 - не хирургия [Records Excluded Step 8 No Surgery in the Spine] (0 articles)
+2019-02-20: SFMHSUSH HSSS v2: шаг 7 - ВП [Records Excluded Step 7 VA or RFA] (0 articles)
+2019-02-20: SFMHSUSH HSSS v2: шаг 6b - последствия травм [Records Excluded Step 6b Late TL Trauma] (0 articles)
+2019-02-20: SFMHSUSH HSSS v2: шаг 6 - осложненная травма [Records Excluded Step 6 TL Trauma SCI Present] (0 articles)
+2019-02-20: SFMHSUSH HSSS v2: шаг 5c - не травма [Records Excluded Step 5c TL Spine Other Than Trauma] (0 articles)
+2019-02-20: SFMHSUSH HSSS v2: шаг 4b - таз [Records Excluded Step 4b Adult Pelvis] (0 articles)
+2019-02-20: SFMHSUSH HSSS v2: шаг 4a - шея [Records Excluded Step 4a Adult C-Spine] (0 articles)
+2019-02-20: SFMHSUSH RCTS or HSSS v2: шаг 1 - фаза 0-1 [Records Excluded Step 1 {Animal} or Cadaver or Biomech or In Vitro or In Silico or Healthy] (0 articles)
+2019-02-20: SFMHSUSH RCTS or HSSS v2: шаг 3 - не спина [Records Excluded Step 3 Adult Not Spine] (0 articles)
+2019-02-20: SFMHSUSH RCTS or HSSS v2: шаг 2 - дети [Records Excluded Step 2 Pediatric] (0 articles)
+```
+
+Сейчас примусь за загрузку туда соответственных XML.
+
+-----
+
 Все записи по проекту из СТМЗ 3 см. здесь: b4a5a48f7b70235ab93e11808f9d222074d9b229 — для сверки и уточнения шага, если запись в PubMed значится в неисключенных, см. выше.
 
 > Вниманию скринеров: записи из СТМЗ 3 не следует смотреть до завершения скрининга, так как это сопровождается срывом маскирования.
