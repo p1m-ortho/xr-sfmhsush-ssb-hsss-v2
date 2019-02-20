@@ -149,6 +149,22 @@ _Из них исключенные:_
 
 Таким образом, всего 16 записей подлежат откату на _Undecide_.
 
+Провел откат. После процедуры:
+
+```
+Inclusion decisions
+Undecided	1123
+Included	5
+Excluded	6
+```
+
+```
+Exclusion reasons
+шаг 2 - дети [Records Excluded Step 2 Pediatric]	2
+шаг 4a - шея [Records Excluded Step 4a Adult C-Spine]	2
+шаг 3 - не спина [Records Excluded Step 3 Adult Not Spine]	1
+```
+
 Ссылка на мою коллекцию в PubMed со всеми 1135 результатами выдачи: https://www.ncbi.nlm.nih.gov/sites/myncbi/1bGT_5WlUb855/collections/57434379/public/
 
 **Поскольку старый порядок переноса — необоснованно изнурителен, необходимо его оптимизировать.**
