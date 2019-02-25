@@ -6,11 +6,11 @@
 
 С ДИК согласовано до февральской конференции (15–16 февраля). Попробуем до 10.02.2018 (вск), чтобы на конференции уже смочь обсудить. Не получилось, продлеваем до 13.02.2019 (ср) включительно.
 
-Согласовал с ДИК до 26.02.2019 06:00.
+**Согласовал с ДИК до 26.02.2019 06:00.**
 
 ### Расчет необходимой скорости работы
 
-В обзоре, включая матерал и методы, насчитал 50 блоков. До 14.02 около 32 рабочих часов (по личному графику), или 1 920 минут. То есть максимум по 38,4 минуты на блок. Возьмем для простоты по 30 минут на блок. Принято.
+В обзоре, включая матерал и методы, насчитал 50 блоков. ~~До 14.02 около 32 рабочих часов (по личному графику), или 1 920 минут. То есть максимум по 38,4 минуты на блок. Возьмем для простоты по 30 минут на блок. Принято.~~
 
 ### Фактическая успеваемость
 
@@ -27,7 +27,7 @@
 Ниже план, концептуально задуманный в 6581bb643afc015b72dd579c33a24e1bee7415e0 и развитый сейчас.
 
 * Завершить скрининг [SFMHSUSH SSB HSSS v2](https://github.com/p1m-ortho/xr-sfmhsush-ssb-hsss-v2).
-* Дополнить выборку в пределах SFMHSUSH, выполнив поиск SFMHSUSH NOT SSB NOT HSSS v2.
+* Дополнить выборку в пределах SFMHSUSH, выполнив поиск SFMHSUSH NOT SSB NOT HSSS v2 — **не пойдет, так как много записей (4776 по SFMHSUSH NOT SFMHSUSH SSB HSSS v2, полный запрос см. ниже в приложениях)**.
 
     Поскольку возник вопрос, уточняю.
 
@@ -144,9 +144,11 @@
 
 > Не, ну есть еще такой вариант, что мы сейчас коллективно приступаем к картированию того, что я уже наскринил ранее (распределив работы, например, случайно между участниками), и так кончим быстрее. Но так мы вновь сорвем маскирование, бо все уже будут знать, какие статьи я включил, и есть основания считать, что это может сместить результаты скрининга.
 
-Единолично сейчас завершаю всю работу, подам предварительный вариант. Консенсусный доделаем позже.
+**Единолично сейчас завершаю всю работу, подам предварительный вариант. Консенсусный доделаем позже.**
 
 > ЭБД: ~~Осталось отскринить 698 записей. Больше половины планирую отскринить 17.02.19. Остальные записи с 18.02.19. по 20.02.19. включительно.~~ Есть изменения, далее на эту тему см. [10e8a4933b904916ee17d4e3630c699990d7440a](https://github.com/p1m-ortho/xr-sfmhsush-ssb-hsss-v2/commit/10e8a4933b904916ee17d4e3630c699990d7440a) и вообще [xr-sfmhsush-ssb-hsss-v2](https://github.com/p1m-ortho/xr-sfmhsush-ssb-hsss-v2/commits/master).
+>
+> По дальнейшей работе над поисками см. теперь в [qs-global-ortho-search-queries](https://github.com/p1m-ortho/qs-global-ortho-search-queries/tree/ao-burst).
 
 ## Текущие задачи
 
@@ -183,7 +185,7 @@
 
 ### Уровень сложности: тяжелый
 
-1. Не начато. Уточнить совместимость данного обзора с [SFMHSUSH SSB HSSS v2](https://github.com/p1m-ortho/xr-sfmhsush-ssb-hsss-v2).
+1. В работе. Уточнить совместимость данного обзора с [SFMHSUSH SSB HSSS v2](https://github.com/p1m-ortho/xr-sfmhsush-ssb-hsss-v2).
 1. Отложено. Выгрузить список ссылок из [раздела по поиску литературы на сайте Канадского агенства по лекарственным средствам и технологиям в здравоохранении (CADTH)](https://www.cadth.ca/resources/finding-evidence) и загрузить его в этот репозиторий и в новый обзор в Rayyan, пригласить в обзор всех участников.
 1. Отложено. Недоступно: только после составления поисковой стратегии. ~~Конвертировать стратегию в синтаксис всех остальных поисковых систем, в том числе для eLIBRARY.RU.~~
 1. Отложено. Определиться со списком баз цитирования (кроме Scopus, eLIBRARY.RU, PMC, Google Scholar, Europe PMC).
@@ -500,3 +502,11 @@ Abudou 2013 (MEDLINE/Ovid Online):
 ### 8 Представление и публикация результатов
 
 В виде полностью сверстанного R-блокнота в «мастере», готового выдать DOCX-документ, отформатированный по ГОСТ-ам (по диссертации и библиографической записи), и сопутствующего .md-документа.
+
+### 9 Приложения
+
+#### SFMHSUSH NOT SFMHSUSH SSB HSSS v2, модель поиска от 6 июня 2018 (GMT+0300)
+
+```
+(("spinal fractures"[mh] su[sh] 1600/01/01:2018/06/05[crdt]) NOT ((((("spinal fractures"[mh]) AND surgery[sh] AND ((((systematic review[ti] OR meta-analysis[pt] OR meta-analysis[ti] OR systematic literature review[ti] OR this systematic review[tw] OR pooling project[tw] OR (systematic review[tiab] AND review[pt]) OR meta synthesis[ti] OR meta-analy*[ti] OR integrative review[tw] OR integrative research review[tw] OR rapid review[tw] OR umbrella review[tw] OR consensus development conference[pt] OR practice guideline[pt] OR drug class reviews[ti] OR cochrane database syst rev[ta] OR acp journal club[ta] OR health technol assess[ta] OR evid rep technol assess summ[ta] OR jbi database system rev implement rep[ta]) OR (clinical guideline[tw] AND management[tw]) OR ((evidence based[ti] OR evidence-based medicine[mh] OR best practice*[ti] OR evidence synthesis[tiab]) AND (review[pt] OR diseases category[mh] OR behavior and behavior mechanisms[mh] OR therapeutics[mh] OR evaluation studies[pt] OR validation studies[pt] OR guideline[pt] OR pmcbook)) OR ((systematic[tw] OR systematically[tw] OR critical[tiab] OR (study selection[tw]) OR (predetermined[tw] OR inclusion[tw] AND criteri*[tw]) OR exclusion criteri*[tw] OR main outcome measures[tw] OR standard of care[tw] OR standards of care[tw]) AND (survey[tiab] OR surveys[tiab] OR overview*[tw] OR review[tiab] OR reviews[tiab] OR search*[tw] OR handsearch[tw] OR analysis[ti] OR critique[tiab] OR appraisal[tw] OR (reduction[tw] AND (risk[mh] OR risk[tw]) AND (death OR recurrence))) AND (literature[tiab] OR articles[tiab] OR publications[tiab] OR publication[tiab] OR bibliography[tiab] OR bibliographies[tiab] OR published[tiab] OR pooled data[tw] OR unpublished[tw] OR citation[tw] OR citations[tw] OR database[tiab] OR internet[tiab] OR textbooks[tiab] OR references[tw] OR scales[tw] OR papers[tw] OR datasets[tw] OR trials[tiab] OR meta-analy*[tw] OR (clinical[tiab] AND studies[tiab]) OR treatment outcome[mh] OR treatment outcome[tw] OR pmcbook)) NOT (letter[pt] OR newspaper article[pt]))) OR (((randomized controlled trial[pt]) OR (randomized controlled trial[mh]) OR (controlled clinical trial[pt]) OR randomized[tiab] OR randomised[tiab] OR placebo[tiab] OR (drug therapy[sh]) OR randomly[tiab] OR trial[tiab] OR groups[tiab]) NOT (animals[mh] NOT humans[mh])))) AND 1600/01/01 : 2018/06/05[cdat]))))
+```
