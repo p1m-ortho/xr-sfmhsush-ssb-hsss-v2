@@ -505,11 +505,21 @@ Abudou 2013 (MEDLINE/Ovid Online):
 
 ### 9 Приложения
 
-#### SFMHSUSH NOT SFMHSUSH SSB HSSS v2, модель поиска от 6 июня 2018 (GMT+0300)
+#### SFMHSUSH NOT SFMHSUSH SSB HSSS v2, модель поиска от ~~6 июня~~ 7 июня 2018 (GMT+0300)
+
+> Хотя оринигинальный поиск реально был 6 июня, правильней такая модель отражает поиск от 7 июня. И вот почему.
+>
+> По-видимому, все даты, отражающие ход работы над записью (EDAT, CRDT, CDAT, MHDA и т. д.), проставляются в GMT-0500/GMT-0400 (штаб-квартира NLM находится в Бетесде, Mэриленд, а там часовой пояс EST/EDT; явных указаний на то, какой часовой пояс используют при проставлении записей, с полтычка в Гугле я не нашел). А значит разница у нас с проставленными там датами может быть 7–8 часов.
+>
+> То есть если мы выполняем поиск в 2 часа ночи 6 июня, предположим, с ограничением 2018/06/05[crdt], то при повторении поиска 7 июня число записей может несколько возрасти, потому что на момент первичного выполнения поиска в EST/EDT еще оставалось несколько часов от 5 июня, в которые и могли быть добавлены записи.
+>
+> Кроме того, я не могу исключить, что записи в Пабмед добавляют и из других временных зон — скажем, из Гавайи (HST/HDT, GMT-1000/GMT-0900),— и тогда эта проблема выглядит еще более актуальной.
+>
+> Поэтому я бы вычитал по умолчанию два дня из реальной даты выполнения поиска (MSK) и везде в поисках проставлял бы дату с этой поправкой.
 
 Возвращает 4776 записей.
 
-Проверил также `SFMHSUSH 6 Jun 2018` (`"spinal fractures"[mh] AND su[sh] AND 1600/01/01 : 2018/06/05[crdt]`): возвращает 5911, как и должен (4776 + 1135 = 5911; `SFMHSUSH SSB HSSS v2 6 Jun 2018` возвращает 1135).
+Проверил также ~~`SFMHSUSH 6 Jun 2018`~~ `SFMHSUSH 7 Jun 2018` (`"spinal fractures"[mh] AND su[sh] AND 1600/01/01 : 2018/06/05[crdt]`): возвращает 5911, как и должен (4776 + 1135 = 5911; ~~`SFMHSUSH SSB HSSS v2 6 Jun 2018`~~ `SFMHSUSH SSB HSSS v2 7 Jun 2018` возвращает 1135).
 
 ```
 (("spinal fractures"[mh] su[sh] 1600/01/01:2018/06/05[crdt]) NOT ((((("spinal fractures"[mh]) AND surgery[sh] AND ((((systematic review[ti] OR meta-analysis[pt] OR meta-analysis[ti] OR systematic literature review[ti] OR this systematic review[tw] OR pooling project[tw] OR (systematic review[tiab] AND review[pt]) OR meta synthesis[ti] OR meta-analy*[ti] OR integrative review[tw] OR integrative research review[tw] OR rapid review[tw] OR umbrella review[tw] OR consensus development conference[pt] OR practice guideline[pt] OR drug class reviews[ti] OR cochrane database syst rev[ta] OR acp journal club[ta] OR health technol assess[ta] OR evid rep technol assess summ[ta] OR jbi database system rev implement rep[ta]) OR (clinical guideline[tw] AND management[tw]) OR ((evidence based[ti] OR evidence-based medicine[mh] OR best practice*[ti] OR evidence synthesis[tiab]) AND (review[pt] OR diseases category[mh] OR behavior and behavior mechanisms[mh] OR therapeutics[mh] OR evaluation studies[pt] OR validation studies[pt] OR guideline[pt] OR pmcbook)) OR ((systematic[tw] OR systematically[tw] OR critical[tiab] OR (study selection[tw]) OR (predetermined[tw] OR inclusion[tw] AND criteri*[tw]) OR exclusion criteri*[tw] OR main outcome measures[tw] OR standard of care[tw] OR standards of care[tw]) AND (survey[tiab] OR surveys[tiab] OR overview*[tw] OR review[tiab] OR reviews[tiab] OR search*[tw] OR handsearch[tw] OR analysis[ti] OR critique[tiab] OR appraisal[tw] OR (reduction[tw] AND (risk[mh] OR risk[tw]) AND (death OR recurrence))) AND (literature[tiab] OR articles[tiab] OR publications[tiab] OR publication[tiab] OR bibliography[tiab] OR bibliographies[tiab] OR published[tiab] OR pooled data[tw] OR unpublished[tw] OR citation[tw] OR citations[tw] OR database[tiab] OR internet[tiab] OR textbooks[tiab] OR references[tw] OR scales[tw] OR papers[tw] OR datasets[tw] OR trials[tiab] OR meta-analy*[tw] OR (clinical[tiab] AND studies[tiab]) OR treatment outcome[mh] OR treatment outcome[tw] OR pmcbook)) NOT (letter[pt] OR newspaper article[pt]))) OR (((randomized controlled trial[pt]) OR (randomized controlled trial[mh]) OR (controlled clinical trial[pt]) OR randomized[tiab] OR randomised[tiab] OR placebo[tiab] OR (drug therapy[sh]) OR randomly[tiab] OR trial[tiab] OR groups[tiab]) NOT (animals[mh] NOT humans[mh])))) AND 1600/01/01 : 2018/06/05[cdat]))))
