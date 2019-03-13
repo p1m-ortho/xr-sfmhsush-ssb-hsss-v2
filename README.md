@@ -12,7 +12,7 @@ https://rayyan.qcri.org/reviews/40538
 
 См. [историю коммитов файла METHOD.md](https://github.com/p1m-ortho/xr-sfmhsush-ssb-hsss-v2/commits/master/METHOD.md).
 
-[Протокол обзора](https://github.com/p1m-ortho/xr-sfmhsush-ssb-hsss-v2/blob/master/METHOD.md#протокол-обзора) | [Журналы изменений](https://github.com/p1m-ortho/xr-sfmhsush-ssb-hsss-v2/blob/master/METHOD.md)
+[Протокол обзора](https://github.com/p1m-ortho/xr-sfmhsush-ssb-hsss-v2/blob/master/METHOD.md#протокол-обзора) | [Журналы изменений](https://github.com/p1m-ortho/xr-sfmhsush-ssb-hsss-v2/blob/master/METHOD.md#журнал-обзора-общий)
 
 ## Название запроса
 
