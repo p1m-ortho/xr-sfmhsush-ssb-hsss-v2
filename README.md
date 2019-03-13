@@ -8,6 +8,12 @@ https://rayyan.qcri.org/reviews/40538
 
 Сравнить на предмет отсутствия преимуществ (а) раннюю (б) малоинвазивную (в) фиксацию (г) из заднего доступа перед другими лечебными методами (консервативное лечение в корсете и без, аугментация, другие пункционные методики и устойства) при неосложненных переломах грудных и поясничных позвонков у живых взрослых.
 
+## Методы
+
+См. [историю коммитов файла METHOD.md](https://github.com/p1m-ortho/xr-sfmhsush-ssb-hsss-v2/commits/master/METHOD.md).
+
+[Протокол обзора](https://github.com/p1m-ortho/xr-sfmhsush-ssb-hsss-v2/blob/master/METHOD.md#протокол-обзора) | [Журналы изменений](https://github.com/p1m-ortho/xr-sfmhsush-ssb-hsss-v2/blob/master/METHOD.md)
+
 ## Название запроса
 
 [Spinal Fractures MeSH Heading](https://meshb.nlm.nih.gov/record/ui?ui=D016103) with [Surgery MeSH Subheading](https://meshb.nlm.nih.gov/record/ui?ui=Q000601) in [Systematic Reviews Subset Strategy](https://www.nlm.nih.gov/bsd/pubmed_subsets/sysreviews_strategy.html) or [Highly Sensitive Search Strategy](https://handbook-5-1.cochrane.org/chapter_6/6_4_11_1_the_cochrane_highly_sensitive_search_strategies_for.htm) v. 2 (SFMHSUSH SSB HSSS v2)
