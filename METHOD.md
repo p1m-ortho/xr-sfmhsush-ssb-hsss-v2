@@ -11,7 +11,7 @@
 В процессе разработки формы. В [PortoDB](https://play.google.com/store/apps/details?id=com.portofarina.portodb) создал отдельную базу, там таблицу (экспорт `xt-ao-type-a_-_a_pubmed_csv.csv` в текущем ее состоянии прикрепляю), где создал поля для принятия импорта из PubMed в CSV, а также добавляю поля сразу и для решений по скринингу, и для картирования. Таким образом, туда подгружаю 1462 записей из PubMed и работаю там.
 
 Разработку полей веду с тем расчетом, чтобы потом (сейчас нет времени) перенести эти сведения в основную базу СТМЗ, которая на сайте (то есть в таблицы «Новая запись» и «Новая оценка», см. детали в xs-stmz-methodology). Разработку веду, опираясь на [5-ю главу 6-го чернового издания кокрейновского руководства](https://training.cochrane.org/version-6), [форму для внесения наблюдений в базу](http://pussia.today/new-case/), уже изученные статьи (списки см. в истории коммитов здесь и в xr-sfmhsush-ssb-hsss-v2), [TIDieR](www.equator-network.
-org/reporting-guidelines/tidier/), [ROBINS-I](https://www.riskofbias.info/welcome/home/current-version-of-robins-i), [RoB 2.0](https://www.riskofbias.info/welcome/rob-2-0-tool).
+org/reporting-guidelines/tidier/), [ROBINS-I](https://www.riskofbias.info/welcome/home/current-version-of-robins-i), [RoB 2.0](https://www.riskofbias.info/welcome/rob-2-0-tool), старые варианты форм из xr-sfmhsush-ssb-hsss-v2.
 
 Отказываюсь от систематических поисков
 в этом обзоре, поскольку хороший поиск даже только в PubMed дает несколько тысяч записей, попытки разумного сужения его все обернулись неудачей, и времени, к сожалению, нет на их изучение.
