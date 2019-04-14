@@ -59,7 +59,6 @@ org/reporting-guidelines/tidier/), [ROBINS-I](https://www.riskofbias.info/welcom
 | p_osteoporosis | Остеопороз в выборке. |
 | p_spine_disease | Сопутствующая патология позвоночника в выборке. |
 | p_fx_count | Число переломов позвонков в выборке. |
-| p_surgical_spine | Дублирует p_spine_pshx, удалить. |
 | p_obs_gyn | Акушерско-гинекологический статус в выборке. |
 | p_sx_risk | Операционный риск в выборке. |
 | p_medications | Принимаемые препараты в выборке. |
@@ -131,7 +130,6 @@ org/reporting-guidelines/tidier/), [ROBINS-I](https://www.riskofbias.info/welcom
 | o_pneumonia | Пневмония как результат. |
 | o_vte | ТЭЛА как результат. |
 | o_implant_remov | Удаление конструкции как результат. |
-| o_reg_kyphosis | Неясно, удалить. |
 | o_verterbal_kyph | Кифоз тела позвонка как результат. |
 | o_seg_kyph | Угол Гарднера как результат. |
 | o_local_kyph | Угол Кобба как результат. |
@@ -164,6 +162,9 @@ org/reporting-guidelines/tidier/), [ROBINS-I](https://www.riskofbias.info/welcom
 | o_covar_adjust | Поправки на ковариацию в анализе результатов. |
 | o_survival_anal | Анализ выживаемости в анализе результатов. |
 | future_plans | Планы на будущие исследования. |
+| study_protocol | Протокол исследования. |
+
+Итак, в таком виде форма — готова к работе, приступаю к заполнению. По мере готовности буду отражать извлеченные данные в тексте обзора.
 
 ## Экспресс-протокол живого обзора (ПВЖ)
 
