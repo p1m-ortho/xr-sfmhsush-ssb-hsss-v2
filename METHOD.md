@@ -130,6 +130,7 @@ org/reporting-guidelines/tidier/), [ROBINS-I](https://www.riskofbias.info/welcom
 | o_death | Смерть как результат. |
 | o_pneumonia | Пневмония как результат. |
 | o_vte | ТЭЛА как результат. |
+| o_implant_failure | Несостоятельность конструкции как результат. |
 | o_implant_remov | Удаление конструкции как результат. |
 | o_verterbal_kyph | Кифоз тела позвонка как результат. |
 | o_seg_kyph | Угол Гарднера как результат. |
