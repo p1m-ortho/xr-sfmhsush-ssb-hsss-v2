@@ -1,0 +1,250 @@
+,Title,URL,Description,Details,ShortDetails,Resource,Type,Identifiers,Db,EntrezUID,Properties,abstract,primary_screen_ts,reviewer_note,available_reports,retraction_notes,protocol_and_reg,eligibility,eligibility - label,p_setting,p_sampling,p_sample_losses,p_sex,p_age,p_doi,p_hpi,p_pmhx_pshx,p_medications,p_osteoporosis,p_obs_gyn,p_allergies,p_social_hx,p_family_hx,p_sx_risk,p_extra_injuries,p_fx_levels,p_fx_count,p_fx_morphology,p_neurology,p_spine_pshx,p_spine_disease,p_other,i_main,i_comparison,i_rationale,i_who_where,i_care_coverage,i_assignment,i_alloc_conceal,i_assign_mask,i_deliv_deviations,i_crossover,i_sx_count,i_extra_sx,i_nonsx_therapy,i_time_to_sx,i_preop_wu,i_anesthesia,i_surgeon_xp,i_incision_line,i_incision_size,i_sx_retractors,i_endoscopy,i_videoscopy,i_microscopy,i_microsurgery,i_sx_navigation,i_c-arm,i_spine_toolset,i_decompression,i_reduction,i_screw_count,i_screw_config,i_post_fixat_dev,i_ven_fixat_dev,i_fus_implants,i_fus_technique,i_augmentation,i_other_implants,i_drain_policy,i_suturing,i_postop_mgmt,i_dc_plan,o_assessment,o_assess_mask,o_fu_schedule,o_fu_losses,o_nonreporting,o_main_analyses,o_sub_analyses,o_add_analyses,o_handl_mul_anal,o_covar_adjust,o_survival_anal,o_mul_measure,o_or_time,o_blood_loss,o_transfus_need,o_neurology,o_other_ae,o_hrqol,o_pain_intensity,o_pt_satisfaction,o_other_proms,o_other_croms,o_ssi,o_pacu_time,o_inpatient_stay,o_neuropath_pain,o_sepsis,o_intraop_ae,o_repeat_sx,o_readmission,o_death,o_pneumonia,o_vte,o_implant_failure,o_implant_remov,o_verterbal_kyph,o_seg_kyph,o_local_kyph,o_vertebral_ht,o_poor_union,o_kyph_corr,o_corr_loss,o_canal_stenosis,o_alignment,o_other_imaging,o_return_to_work,o_other,handl_miss_data,other_adjust,regression_anal,other_econ_anal,study_conclusions,practice_recomm,research_recomm,what_is_next,discussion,correspondence,coi_concern,miscond_concern,preib_cnfndng,preib_selection,preib_rndmztn,atib_msclssfctn,poib_deviations,poib_missing,poib_msrmnt,poib_selection
+4392,Posterior paraspinal muscle versus post-middle approach for the treatment of thoracolumbar burst fractures: A randomized controlled trial.,/pubmed/29924040,"Chang W, Zhang D, Liu W, Lian X, Jiao Z, Chen W.",Medicine (Baltimore). 2018 Jun;97(25):e11193. doi: 10.1097/MD.0000000000011193.,Medicine (Baltimore).  2018,PubMed,citation,PMID:29924040 | PMCID:PMC6024482,pubmed,29924040,create date:2018/06/21 | first author:Chang W,"Abstract
+Background: This randomized controlled trial (RCT) aimed to compare the clinical outcomes of thoracolumbar burst fractures
+(TLBFs) treated with open reduction and internal fixation via the posterior paraspinal muscle approach (PPMA) and the post-middle
+approach (PA).
+Methods: Patients with a traumatic single-level TLBFs (T10-L2), treated at our hospital between December 2009 and December
+2014, were randomly allocated to Group A (PPMA) and Group B (PA). Sex, age, time from injury to surgery, the American Spinal Injury
+Association Impairment Scale score (ASIAIS), comorbidities, vertebral level, pre- and postoperative kyphotic angle (KA), visual analog
+scale (VAS) pain score, and the Oswestry Disability Index (ODI) scores were included in the analysis. Operative time, intraoperative
+blood loss, x-ray exposure time, postoperative drainage volume, superficial infection, and occurrence of deep infection were
+documented. The patients were followed up at 2 weeks; 1, 3, and 6 months; 1 and 2 years; and every 6 months thereafter.
+Radiological assessments were performed to assess fracture union and detect potential loosening and breakage of the pedicle
+screws and rods at each follow-up. Postoperative VAS and ODI scores were used to evaluate the clinical outcomes.
+Results:A total of 62 patients were enrolled (30 in Group A and 32 in Group B, respectively). The operative time (P<.001) and x-ray
+exposure time (P<.001) in Group A were significantly longer than those in Group B. However, compared to Group B, there were less
+intraoperative blood loss (P<.001), lower postoperative drainage volume (P<.001), lower VAS scores (2-week (P=.029), 1-month
+(P=.023), 3-month (P=.047), and 6-month follow-up (P=.010)), and lower ODI scores (2-week, P=.010; 1-month, P<.001; 3-
+month, P=.028; and 6-month follow-up, P=.033) in Group A.
+Conclusions: Although PPMA required a longer operative time and x-ray exposure time, PPMA provided several advantages over
+PA, including less intra-operative blood loss and lower postoperative drainage volume, and greater satisfaction with postoperative
+pain relief and functional improvement, than PA, especially at the 6-month follow-up after surgery. Further high-quality multicenter
+studies are warranted to validate our findings.
+Abbreviations: ASIAIS = American Spinal Injury Association Impairment Scale, KA = kyphotic angle, MRI = magnetic resonance
+imaging, ODI = Oswestry Disability Index, PPMA = posterior paraspinal muscle approach, RCT = randomized controlled trial,
+TLBFs = thoracolumbar burst fractures, VAS = visual analog scale.
+Keywords: kyphotic angle, Oswestry Disability Index, posterior paraspinal muscle approach, post-middle approach, randomized
+controlled trial, thoracolumbar burst fractures, visual analog scale",,"Continuous variables are expressed as
+mean±SD based on the normal data or median (quartile range)
+for the non-normally distributed data, while categorical variables
+are expressed as frequency (percentage). 
+
+PPMA
+(Group A)
+PA
+(Group B) t/x2
+/ Z
+Significance
+(P value)","Medicine (2018) 97:25(e11193)
+
+Song BK, Eun JP, Oh YM. Clinical and radiological comparison of
+unipedicular versus bipedicular balloon kyphoplasty for the treatment of
+vertebral compression fractures. Osteoporos Int 2009;20:1717–23.",,"3rd Hospital of Hebei Medical University, … study approval number was KE-2009-
+002-19.",1,Включены,"our hospital between December 2009 and December 2014
+
+aDepartment of Orthopaedic Surgery, The Third Hospital of Hebei Medical University","A total of 70 patients were enrolled (35 in Group A and 35 in
+Group B). ",,Sex (male: female) 19:11 21:11 – –,"20 to 55 years
+
+Group A … a mean age of 46.2±5.4 years (range, 35–55 years)
+
+Group B
+… a mean age of 44.7±6.6
+years (range, 29–55 years), 
+
+Mean age, years 46.2±5.4 44.7±6.6 1.009 .317","time from initial injury to surgery ≤2
+weeks;","traumatic
+
+pathological fracture,  … were excluded","cognitive
+impairment, cerebral hemorrhage or infarction, … were excluded.
+
+Comorbidities
+CHD 2.0 (6.7%) 1.0 (3.1%) 0.003 .954
+DM 1.0 (3.3%) 2.0 (6.3%) 0.000a 1.000
+HT 2.0 (6.7%) 2.0 (6.3%) 0.000a 1.000
+CBD 0.0 (0.0%) 1.0 (3.1%) 0.000a 1.000
+
+Scale, CBD=
+cerebrovascular disease, CHD=coronary heart disease, DM=diabetes mellitus, HT=hypertension,",,,,,,,,"the absence of concomitant
+fractures at other body sites;
+
+injury to the
+organs of the thoracic and abdominal cavities, were excluded.","(T10-L2),
+
+Vertebral level (n)
+T10 3.0 (10.0%) 4.0 (12.5%) 0.000a 1.000
+T11 6.0 (20.0%) 5.0 (15.6%) 0.203 .652
+L12 7.0 (23.3%) 5.0 (15.6%) 0.589 .443
+L1 12.0 (40.0%) 15.0 (46.9%) 0.298 .585
+L2 2.0 (6.7%) 3.0 (8.8%) 0.000a 1.000q",single-level,"TLBF
+
+intact posterior longitudinal ligament, con-
+firmed by magnetic resonance imaging (MRI);
+
+no displacement of
+bone fragments into the spinal canal; ","Grade D or E spinal cord injury,
+according to American Spinal Injury Association Impairment
+Scale (ASIAIS);[18] 
+
+ASIAIS grade (n)
+D 6.0 (20.0%) 10.0 (31.3%) 1.024 .312
+E 24.0 (80.0%) 22.0 (68.8%) 1.024 .312",,,"The inclusion criteria were … patient’s consent to the surgical treatment
+
+Preoperative KA (°) 11.5±3.5 11.3±3.3 0.215 .831
+
+Preoperative
+VAS score
+7.5 (2.0) 7.0 (2.0) 0.858 .391
+
+Preoperative ODI
+score (%)
+50.0 (8.0) 53.0 (7.0) 1.955 .051","Posterior paraspinal muscle approach. 
+
+Group A
+
+PPMA","Post-middle approach.
+
+Group B
+
+PA","the mean spine pedicle width in the Asian
+population is only approximately 8mm,[9] increasing the risk
+pedicle screw placement failure, which can lead to serious
+surgical complications, such as neurovascular injury, visceral
+injury and decreased vertebral stability.[10] To reduce the
+potential risk for failure, most clinicians tend to choose a
+large-incision post-middle approach (PA) for implantation.
+However, the PA approach results in extensive soft-tissue
+damage, secondary to stripping of the posterior paraspinal
+muscles away from the spine. In 1959, Watkins[11] first proposed
+use of a posterior paraspinal muscle approach (PPMA) to the
+lumbar spine. Subsequently, Wiltse et al[12,13] adapted the PPMA
+to approach the thoracic spine between the lateral border of the
+multifidus and the longissimus, demonstrating that a PPMA
+might provide easy access to the facet and transverse process and,
+therefore, be useful as a surgical approach for pedicle screw
+placement and posterolateral fusion, without creating vertebral
+canal decompression.",,,"Patients who met the inclusion criteria were numbered by
+computer-generated numbers, which were calculated via “=INT
+(100∗RAND())” in Microsoft Office Excel. ","Patients with an even
+number were allocated to Group A (PPMA), with those with an
+odd number being allocated to Group B (PA).","The surgeons were
+not blinded to group allocation, but the patients were. ",,,,,,"Time from injury
+to surgery, days
+2.0 (2.0) 3.0 (1.0) 0.640 .522",,general endotracheal anesthesia,senior,"Posterior paraspinal muscle approach. 
+
+in the
+prone position and a midline incision … through the skin, subcutaneous tissue and lumbodorsal fascia. 
+
+Approximately 1 cm
+lateral to the spinous process, a longitudinal incision was made
+into the lumbodorsal fascia, until a finger could access the facet
+joint.
+
+Post-middle approach.
+
+A midline incision was performed by subperiosteal dissection of
+the paraspinal muscles, ",,,"PPMA
+
+the surgery is performed endoscopi-
+cally.",,,,,C-arm fluroscopy.,," using posterior pedicle instrumentation and connecting
+rod attachment","using posterior pedicle instrumentation and connecting
+rod attachment",Four,one level above and one level below,"transverse connect-
+ing rod",,,,,,2 drainage tubes were placed,,,,"Measurement of the KA was
+performed in accordance with the description by Song et al.[21]
+
+The kyphotic angle is measured by
+drawing a line (1) parallel to the most caudal uninjured inferior
+vertebral endplate. A line perpendicular to line 1 is dropped (2). A line
+marking the most cranial uninjured inferior vertebral endplate (3) is
+similarly drawn, along with its respective perpendicular line (4). The
+angle (filled star) in degrees of kyphotic angulation is given by lines 2
+and 4
+
+VAS to evaluate low back pain (on a scale of
+0–10),[22]
+
+ODI was used for the functional assessment (on a
+scale of 0%–100%).[23] ",,"The
+follow-up time in the 2 groups was ≥24 months.
+
+short-term (2 weeks and 1, 3, and 6 months) and mid-
+term (1and 2 years and each 6 months thereafter) follow-up 
+
+Follow-up
+period, months
+28.3±3.0 29.0±2.6 0.988 .327","Five patients in Group A and 3 in Group B were lost
+during follow-up, and the data of 62 patients were included in
+our final analysis. ",,"As for continuous
+variables, the independent 2-sample t test (or Mann–Whitney U
+(2 sample) test) was used to compare data between the 2 groups,
+while the categorical variables were compared with Pearson chi-
+square test (or Fisher’s exact test). ",,,,,,,"operative time,
+
+Operative time, minutes 98.5 (14.3) 82.5 (6.8) 6.043 .000∗","intraop-
+erative blood loss,
+
+postoperative drainage
+volume
+
+Blood loss, mL 194.0 (7.5) 256.0 (14.5) 5.631 .000∗
+
+Postoperative drainage
+volume, mL
+94.0 (22.0) 160.0 (19.0) 6.768 .000∗",,"ASIAIS grade (n)
+D 00 – –
+E 30 32 – –",,"Oswestry Disability Index (ODI) score
+
+Postoperative ODI score (%)
+2-week follow-up 42.5 (5.0) 45.0 (2.5) 2.578 .010
+1-month follow-up 32.5 (5.0) 37.5 (5.0) 5.911 .000∗
+3-month follow-up 30.0 (5.0) 32.5 (7.5) 2.203 .028
+6-month follow-up 22.5 (0.6) 22.5 (2.5) 2.127 .033
+1-year follow-up 17.5 (5.0) 20.0 (5.0) 1.168 .867
+2-year follow-up 17.5 (2.5) 18.8 (6.9) 0.095 .924","postoperative visual
+analog scale (VAS) score, 
+
+Postoperative VAS score
+2-week follow-up 6.0 (1.0) 6.0 (2.0) 2.182 .029
+1-month follow-up 2.0 (1.0) 3.0 (2.0) 2.281 .023
+3-month follow-up 1.0 (1.0) 2.0 (0.8) 1.990 .047
+6-month follow-up 1.0 (1.0) 1.0 (1.0) 2.578 .010
+1-year follow-up 0.0 (1.0) 0.0 (1.0) 0.653 .514
+2-year follow-up 0.0 (1.0) 0.0 (1.0) 0.6196 .536",,,,"superficial infection,
+
+deep infection,
+
+Superficial infection (n) 2.0 (6.7%) 5.0 (15.6%) 0.507 .476
+Deep infection (n) 1.0 (3.3%) 3.0 (9.4%) 0.203 .652",,,,,,,,,,,"loosening and breakage
+of the pedicle screws and rods
+
+Loosening of pedicle
+screws and rods (n)
+2.0 (6.7%) 4.0 (12.5%) 0.120 .729
+
+Breakage of pedicle
+screws and rods (n)
+1.0 (3.3%) 2.0 (6.3%) 0.000a 1.000",,,,"postoperative kyphotic angle (KA),
+
+Postoperative KA (°)
+2-week follow-up 4.3 (5.6) 4.8 (5.1) 0.888 .375
+1-month follow-up 4.9±3.1 5.7±3.1 0.915 .364
+3-month follow-up 4.4 (5.4) 4.7 (5.2) 0.740 .459
+6-month follow-up 4.3 (5.5) 4.7 (5.1) 0.782 .434
+1-year follow-up 4.9±3.1 5.6±3.1 0.919 .362
+2-year follow-up 4.2 (5.1) 4.7 (4.8) 0.698 .485",,,,,,,,,"x-ray exposure time
+
+x-ray exposure
+time, seconds
+14.0 (2.3) 10.0 (2.8) 6.147 .000∗",,,,,"Although PPMA required a longer operative time and x-ray
+exposure time, PPMA provided several advantages over PA,
+including less intra-operative blood loss and lower postoperative
+drainage volume, and greater satisfaction with postoperative
+pain relief and functional improvement, than PA, especially at the
+6-month follow-up after surgery.","PPMA
+… potential alternative to this traditional
+procedure.","we did not compare the PPMA to a percutaneous
+approach, a comparison which should be undertaken in future
+studies.
+
+Further high-quality multicen-
+ter studies are warranted to validate our findings.",,,,,"all patients signed
+informed consent.",,,,,,,,
