@@ -8,7 +8,7 @@ where c21=1439861 OR c21=27135451 OR c21=18377319 OR c21=19404687 OR c21=2700530
 
 update t2
 set c138='RAYYAN-INCLUSION: {"Pavel"=>false, "dursunov.eldar97"=>true} | RAYYAN-EXCLUSION-REASONS: шаг 8a - не та хирургия [Records Excluded Step 8a Surgery Not Directly Relevant]', c159=3
-where c21=28247080 OR c21=9882919 OR c21=27646696 OR c21=9755762 OR c21=9051896 OR c21=20189171;
+where c21=28247080 OR c21=9882919 OR c21=27646696 OR c21=9755762 OR c21=9051896 OR c21=10374468 OR c21=20189171;
 
 update t2
 set c138='RAYYAN-INCLUSION: {"Pavel"=>false, "dursunov.eldar97"=>true} | RAYYAN-EXCLUSION-REASONS: шаг 8 - не хирургия [Records Excluded Step 8 No Surgery in the Spine]', c159=3
