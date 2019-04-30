@@ -83,6 +83,7 @@ column_id,table_id,name,type,pos,rel
 76,2,i_suturing,TEXT,78,
 77,2,i_postop_mgmt,TEXT,79,
 87,2,i_dc_plan,TEXT,80,
+175,2,i_other,TEXT,80,
 140,2,o_assessment,TEXT,81,
 139,2,o_assess_mask,TEXT,82,
 95,2,o_fu_schedule,TEXT,83,
