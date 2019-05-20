@@ -46,158 +46,188 @@ org/reporting-guidelines/tidier/), [ROBINS-I](https://www.riskofbias.info/welcom
 
 Сделал завершенный черновой вариант формы (прикрепляю, поля идут не в логическом порядке). Разъяснения (в очередной раз спасибо [Tables Generator](https://www.tablesgenerator.com/markdown_tables)):
 
-| Поле | Описание |
-|--------------------|---------------------------|
-| Title | Экспортируется из PubMed. |
-| URL | Экспортируется из PubMed. |
-| Description | Экспортируется из PubMed. |
-| Details | Экспортируется из PubMed. |
-| ShortDetails | Экспортируется из PubMed. |
-| Resource | Экспортируется из PubMed. |
-| Type | Экспортируется из PubMed. |
-| Identifiers | Экспортируется из PubMed. |
-| Db | Экспортируется из PubMed. |
-| EntrezUID | Экспортируется из PubMed. |
-| Properties | Экспортируется из PubMed. |
-| abstract | Аннотация (реферат). Копирую сюда вручную, если привлекаю ее к рассмотрению. |
-| primary_screen_ts | Дата и время выполнения первичного скрининга. |
-| reviewer_note | Заметки заполняющего. Содержит, в первую очередь, обоснование решения по вторичному скринингу (см. поле `eligibility`), а также любые другие соображения, возникающие при работе со статьей. |
-| available_reports | Список доступных для изучения документов об исследовании. |
-| retraction_notes | Изъятия из публикации (есть ли сведения, что статьи были изъяты из публикации решением редакции журнала, где прочесть об этом). |
-| protocol_and_reg | Протокол и регистрация (где и как можно ознакомиться с протоколом исследования, было ли исследование зарегистрировано в каких-либо регистрах и в каких, как получить доступ). |
-| eligibility | Селектор одного из вариантов из выпадающего списка: «Включены», «Исключены», «Ожидают рассмотрения», «Слияние с другим источником». Поле призвано содержать рубрику, в которой в конечном счете в обзоре окажутся ссылки на данное исследование. Вариант слияния предназначен для случаев, когда данное исследование уже начали разбирать при изучении другого источника (в ситуациях, когда  в нескольких источниках описывается одно и то же исследование). |
-| p_setting | Условия учреждения (учреждений), где производился набор выборки (что за учреждения, где и когда, какие у них характеристики, при этом речь именно про _набор выборки_, место и условия выполнения вмешательств могут отличаться). |
-| p_sampling | Порядок набора выборки. |
-| p_sample_losses | Потери пациентов при формировании выборки (то есть уже после применения критериев включения и исключения, но еще до выполнения вмешательств, выбыл ли кто-то). |
-| p_sex | Пол в выборке. |
-| p_age | Возраст в выборке. |
-| p_doi | Давность травмы в выборке (DOI — Date of Injury, то есть дата травмы, устоявшаяся аббревиатура). |
-| p_hpi | Анамнез перелома в выборке (HPI — History of the Present Illness, то есть анамнез заболевания, устоявшаяся аббревиатура). |
-| p_pmhx_pshx | Перенесенные и хронические заболевания, операции в выборке (PMHx — Past Medical History, то есть перенесенные и хронические заболевания, PSHx — Past Surgical History, то есть перенесенные операции, устоявшиеся аббревиатуры). |
-| p_medications | Принимаемые препараты в выборке (то есть лекарственный анамнез). |
-| p_osteoporosis | Остеопороз в выборке. |
-| p_obs_gyn | Акушерско-гинекологический (obstetrics and gynecology) статус в выборке (анамнез и сопутствующие состояния, беременность, menses и так далее). |
-| p_allergies | Аллергии в выборке (то есть аллергологический анамнез). |
-| p_social_hx | Социальный анамнез в выборке (social history; в том числе курение, употребление алкоголя и наркотиков, условия проживания, размер доходов, уровень образования, эпиданамнез). |
-| p_family_hx | Семейный анамнез в выборке (family history). |
-| p_sx_risk | Операционный риск в выборке (в частности по [шкале ASA](https://www.asahq.org/standards-and-guidelines/asa-physical-status-classification-system)). |
-| p_extra_injuries | Повреждения вне позвоночника в выборке (extraspinal injuries). |
-| p_fx_levels | Уровни перелома в выборке (fracture levels). |
-| p_fx_count | Число переломов позвонков в выборке (fracture count). |
-| p_fx_morphology | Морфология перелома в выборке (fracture morphology). |
-| p_neurology | Неврологический дефицит в выборке. |
-| p_spine_pshx | Анамнез операций на позвоночнике в выборке (PSHx — Past Surgical History, то есть перенесенные операции, устоявшаяся аббревиатура). |
-| p_spine_disease | Сопутствующая патология позвоночника в выборке. |
-| p_other | Другие характеристики выборки. |
-| i_main | Основная группа в рамках помощи. |
-| i_comparison | Группа сравнения в рамках помощи. |
-| i_rationale | Обоснование объема и содержания помощи (со слов авторов, как обосновывают сами авторы). |
-| i_who_where | Кто и где оказывали помощь (речь именно про место и условия _выполнения вмешательств_, в отличие от места и условий набора выборки). |
-| i_care_coverage | Финансирование помощи (кто оплачивал, за чьи средства оказывалась помощь). |
-| i_assignment | Порядок распределения на группы в рамках помощи (intervention assignment; каким образом выполняли распределение на группы: кто решал, кого в какую группу, в какой момент и на каком основании). |
-| i_alloc_conceal | Сокрытие последовательности распределения в рамках помощи (intervention allocation concealment; можно ли было просчитать или догадаться, в какую группу попадет каждый следующий участник, или это можно было понять только в сам момент распределения, как это было организовано). |
-| i_assign_mask | Маскирование распределения в рамках помощи (intervention assignment masking; знали ли лица, распределявшие участников в группы / сами участники / лица, участвовавшие в оказании помощи, какой участник будет получать какое вмешательство, и если да, то как было организовано сокрытие этих сведений). |
-| i_deliv_deviations | Отклонения от запланированной помощи (intervention delivery deviations; когда авторы описывают, что в каких-то случаях не удалось выполнить вмешательства по плану в связи с такими-то и такими обстоятельствами). |
-| i_crossover | Кроссовер исследуемых (то есть переход из одной группы исследования в другую уже после выполнения распределения на группы). |
-| i_sx_count | Число операций (surgery count) на позвоночнике в рамках помощи. |
-| i_extra_sx | Операции вне позвоночника (extraspinal surgery) в рамках помощи. |
-| i_nonsx_therapy | Консервативные методы лечения (nonsurgical therapy) в рамках помощи. |
-| i_time_to_sx | Время до операции (time to surgery) в рамках помощи. |
-| i_preop_wu | Предоперационная подготовка (preoperative work-up) в рамках помощи. |
-| i_anesthesia | Анестезиологическое пособие в рамках помощи. |
-| i_surgeon_xp | Опыт хирурга (surgeon experience) в рамках помощи. |
-| i_incision_line | Линия разреза в рамках помощи (например локализация, ход разреза, размер скальпеля). |
-| i_incision_size | Величина разреза в рамках помощи. |
-| i_sx_retractors | Ранорасширители (surgical retractors) в рамках помощи. |
-| i_endoscopy | Эндоскопия в рамках помощи. |
-| i_videoscopy | Видеоэндоскопия в рамках помощи. |
-| i_microscopy | Операционный микроскоп в рамках помощи. |
-| i_microsurgery | Микрохирургическая техника в рамках помощи. |
-| i_sx_navigation | Компьютерная навигация (surgical navigation) в рамках помощи (в том числе интраоперационная КТ, [O-arm](https://google.com/search?q=o+arm)). |
-| i_c-arm | ЭОП в рамках помощи (интраоперационная рентгеноскопия, флуороскопия, C-дуга). |
-| i_spine_toolset | Инструменты для хирургии позвоночника в рамках помощи. |
-| i_decompression | Декомпрессивный прием в рамках помощи (подробнее см. в [DISCUSSION](https://github.com/p1m-ortho/xt-ao-type-a/blob/3eb8108034c910b8ae3c0c6d358ee9d9f3965f77/DISCUSSION)). |
-| i_reduction | Репозиционный прием в рамках помощи (подробнее см. в [DISCUSSION](https://github.com/p1m-ortho/xt-ao-type-a/blob/3eb8108034c910b8ae3c0c6d358ee9d9f3965f77/DISCUSSION)). |
-| i_screw_count | Число винтов в рамках помощи. |
-| i_screw_config | Расположение винтов (screw configuration) в рамках помощи (в сломанный позвонок, выше, ниже, через сломанный корень дуги, не через сломанный корень дуги и так далее). |
-| i_post_fixat_dev | Задние конструкции (posterior fixation devices) в рамках помощи (подробнее см. в [DISCUSSION](https://github.com/p1m-ortho/xt-ao-type-a/blob/3eb8108034c910b8ae3c0c6d358ee9d9f3965f77/DISCUSSION)). |
-| i_ven_fixat_dev | Передние конструкции (ventral fixation devices) в рамках помощи (подробнее см. в [DISCUSSION](https://github.com/p1m-ortho/xt-ao-type-a/blob/3eb8108034c910b8ae3c0c6d358ee9d9f3965f77/DISCUSSION)). |
-| i_fus_implants | Материал спондилодеза (fusion implants) в рамках помощи (подробнее см. в [DISCUSSION](https://github.com/p1m-ortho/xt-ao-type-a/blob/3eb8108034c910b8ae3c0c6d358ee9d9f3965f77/DISCUSSION)). |
-| i_fus_technique | Техника спондилодеза (fusion technique) в рамках помощи (подробнее см. в [DISCUSSION](https://github.com/p1m-ortho/xt-ao-type-a/blob/3eb8108034c910b8ae3c0c6d358ee9d9f3965f77/DISCUSSION)). |
-| i_augmentation | Аугментационные методики в рамках помощи (вертебро-, кифо-, стентопластика, иные внутрипозвоночные импланты, транспедикулярная костная пластика). |
-| i_other_implants | Другие имплантаты в рамках помощи (буквально что угодно остальное, что имплантируется в рану). |
-| i_drain_policy | Подход к дренированию в рамках помощи. |
-| i_suturing | Подход к ушиванию в рамках помощи. |
-| i_postop_mgmt | Послеоперационное ведение в рамках помощи. |
-| i_dc_plan | Выписные рекомендации (discharge plan) в рамках помощи. |
-| i_other | Другое в рамках помощи. |
-| o_assessment | Порядок оценки результатов (outcome assessment; как именно, с применением каких методик и инструментов оценивали те или иные результаты, например порядок заполнения опросников, порядок оценки неврологического дефицита, порядок измерения лучевых показателей). |
-| o_assess_mask | Маскирование при оценке результатов (outcome assessment masking; в момент выполнения оценки результатов знали ли оценивающие, какое вмешательство было выполнено обследуемому; следует учитывать, что при заполнении опросников непосредственно со слов самого обследуемого сам обследуемый и является оценивающим). |
-| o_fu_schedule | График отслеживания результатов (follow-up schedule). |
-| o_fu_losses | Потери пациентов при отслеживании результатов (follow-up losses). |
-| o_nonreporting | Недоложенные результаты (outcome nonreporting; то есть результаты, которые планировали оценивать по протоколу, но не представлены в тексте итоговых статей). |
-| o_main_analyses | Основные анализы результатов, то есть сравнения результатов между основными группами. |
-| o_sub_analyses | Анализы результатов в подгруппах (subgroup analyses). |
-| o_add_analyses | Дополнительные анализы результатов (additional analyses). |
-| o_handl_mul_anal | Порядок работы со множественными анализами результатов (handling multiple analyses). |
-| o_covar_adjust | Поправки на ковариацию в анализе результатов (covariation adjustments). |
-| o_survival_anal | Анализ выживаемости в анализе результатов (survival analysis). |
-| o_mul_measure | Порядок работы со множественными измерениями результатов (multiple measurements). |
-| o_or_time | Длительность операции (operation room time) как результат. |
-| o_blood_loss | Кровопотеря как результат. |
-| o_transfus_need | Потребность в трансфузиях (transfusion need) как результат. |
-| o_neurology | Неврологический дефицит как результат. |
-| o_other_ae | Другие нежелательные события (other adverse events) как результат. |
-| o_hrqol | Качество жизни, связанное со здоровьем (HRQOL — Health-Related Quality of Life), как результат. |
-| o_pain_intensity | Выраженность боли как результат. |
-| o_pt_satisfaction | Удовлетворенность пациента (patient satisfaction) как результат. |
-| o_other_proms | Другие опросники для пациента (PROMs — Patient-Reported Outcome Measures) как результат. |
-| o_other_croms | Другие клинические шкалы (CROMs — Clinician-Reported Outcome Measures) как результат. |
-| o_ssi | Инфекция области операции (SSI — Surgical Site Infection) как результат. |
-| o_pacu_time | Длительность пребывания в ПИТ после операции (PACU — Post-Anesthesia Care Unit) как результат. |
-| o_inpatient_stay | Длительность госпитализации как результат. |
-| o_neuropath_pain | Радикулопатия (neuropathic pain) как результат. |
-| o_sepsis | Сепсис как результат. |
-| o_intraop_ae | Интраоперационные осложнения (intraoperative adverse events) как результат  |
-| o_repeat_sx | Повторные операции (repeat surgeries) на позвоночнике как результат. |
-| o_readmission | Повторные госпитализации как результат. |
-| o_death | Смерть как результат. |
-| o_pneumonia | Пневмония как результат. |
-| o_vte | ТЭЛА (VTE — Venous Thromboembolism) как результат. |
-| o_implant_failure | Несостоятельность конструкции как результат. |
-| o_implant_remov | Удаление конструкции (implant removal) как результат. |
-| o_verterbal_kyph | Кифоз тела позвонка (vertebral kyphosis) как результат (подробнее см. в [DISCUSSION](https://github.com/p1m-ortho/xt-ao-type-a/blob/3eb8108034c910b8ae3c0c6d358ee9d9f3965f77/DISCUSSION)). |
-| o_seg_kyph | Угол Гарднера (segmental kyphosis) как результат (подробнее см. в [DISCUSSION](https://github.com/p1m-ortho/xt-ao-type-a/blob/3eb8108034c910b8ae3c0c6d358ee9d9f3965f77/DISCUSSION)). |
-| o_local_kyph | Угол Кобба (local kyphosis) как результат (подробнее см. в [DISCUSSION](https://github.com/p1m-ortho/xt-ao-type-a/blob/3eb8108034c910b8ae3c0c6d358ee9d9f3965f77/DISCUSSION)). |
-| o_vertebral_ht | Высота тела позвонка (vertebral height) как результат. |
-| o_poor_union | Нарушения консолидации как результат. |
-| o_kyph_corr | Коррекция кифоза (kyphosis correction) как результат. |
-| o_corr_loss | Потеря коррекции (correction loss) как результат. |
-| o_canal_stenosis | Стеноз позвоночного канала как результат. |
-| o_alignment | Баланс как результат (имеются в виду показатели позвоночного баланса, позвоночно-тазовых взаимоотношений, такие как [SVA](https://google.com/search?tbm=isch&q=sagittal+vertical+axis), углы коронарных деформаций, [PT](https://google.com/search?tbm=isch&q=pelvic+tilt), [PI](https://google.com/search?tbm=isch&q=pelvic+incidence) и другие). |
-| o_other_imaging | Другие лучевые результаты. |
-| o_return_to_work | Возвращение к труду как результат. |
-| o_other | Другие результаты. |
-| handl_miss_data | Порядок работы с недостающими данными (handling missing data). |
-| other_adjust | Другие статистические поправки (adjustments). |
-| regression_anal | Анализы регрессии (regression analyses). |
-| other_econ_anal | Другие экономические анализы (economic analyses). |
-| study_conclusions | Выводы исследования (авторские). |
-| practice_recomm | Практические рекомендации (practice recommendations), которые дают авторы. |
-| research_recomm | Рекомендации для последующих исследований (research recommendations), которые дают авторы. |
-| what_is_next | Что дальше? То есть что дальше планируют делать сами авторы: может быть, остаются неопубликованными какие-то результаты, и авторы собираются их опубликовать, или планируют продолжить исследование в таком-то и таком ключе, или собираются внедрять полученные результаты в практику, или любые иные планы авторов. |
-| discussion | Обсуждение (имеется в виду раздел «Discussion» в самой статье, а также комментарии к статье и авторские ответы на них в публичных источниках). |
-| correspondence | Переписка (имеется в виду наша переписка с авторами). |
-| miscond_concern | Соображение о мошенничестве. |
-| coi_concern | Соображения о конфликте интересов. |
-| preib_cnfndng | Pre-intervention bias: Bias due to confounding. |
-| preib_selection | Pre-intervention bias: Bias in selection of participants into the study. |
-| preib_rndmztn | Pre-intervention bias: Bias arising from the randomization process. | 
-| atib_msclssfctn | At-intervention bias: Bias in classification of interventions |
-| poib_deviations | Post-intervention bias: Bias due to deviations from intended interventions. |
-| poib_missing | Post-intervention bias: Bias due to missing outcome data. |
-| poib_msrmnt | Post-intervention bias: Bias in measurement of the outcome.  |
-| poib_selection | Post-intervention bias: Bias in selection of the reported result. |
+| № п/п | Поле | Описание |
+|-------|------|----------|
+| 1 | id | Первичный ключ записи. |
+| 2 | Title | Экспортируется из PubMed или JabRef. |
+| 3 | URL | Экспортируется из PubMed или JabRef. |
+| 4 | Description | Экспортируется из PubMed. |
+| 5 | Details | Экспортируется из PubMed. |
+| 6 | ShortDetails | Экспортируется из PubMed. |
+| 7 | Resource | Экспортируется из PubMed. |
+| 8 | Type | Экспортируется из PubMed. |
+| 9 | Identifiers | Экспортируется из PubMed. |
+| 10 | Db | Экспортируется из PubMed. |
+| 11 | EntrezUID | Экспортируется из PubMed. |
+| 12 | Properties | Экспортируется из PubMed. |
+| 13 | BibliographyType | Экспортируется из JabRef. |
+| 14 | ISBN | Экспортируется из JabRef. |
+| 15 | Identifier | Экспортируется из JabRef. |
+| 16 | Author | Экспортируется из JabRef. |
+| 17 | Journal | Экспортируется из JabRef. |
+| 18 | Volume | Экспортируется из JabRef. |
+| 19 | Number | Экспортируется из JabRef. |
+| 20 | Month | Экспортируется из JabRef. |
+| 21 | Pages | Экспортируется из JabRef. |
+| 22 | Year | Экспортируется из JabRef. |
+| 23 | Address | Экспортируется из JabRef. |
+| 24 | Note | Экспортируется из JabRef. |
+| 25 | Booktitle | Экспортируется из JabRef. |
+| 26 | Chapter | Экспортируется из JabRef. |
+| 27 | Edition | Экспортируется из JabRef. |
+| 28 | Series | Экспортируется из JabRef. |
+| 29 | Editor | Экспортируется из JabRef. |
+| 30 | Publisher | Экспортируется из JabRef. |
+| 31 | ReportType | Экспортируется из JabRef. |
+| 32 | Howpublished | Экспортируется из JabRef. |
+| 33 | Institution | Экспортируется из JabRef. |
+| 34 | Organizations | Экспортируется из JabRef. |
+| 35 | School | Экспортируется из JabRef. |
+| 36 | Annote | Экспортируется из JabRef. |
+| 37 | Custom1 | Экспортируется из JabRef. |
+| 38 | Custom2 | Экспортируется из JabRef. |
+| 39 | Custom3 | Экспортируется из JabRef. |
+| 40 | Custom4 | Экспортируется из JabRef. |
+| 41 | Custom5 | Экспортируется из JabRef. |
+| 42 | abstract | Аннотация (реферат). Копирую сюда вручную, если привлекаю ее к рассмотрению. |
+| 43 | primary_screen_ts | Дата и время выполнения первичного скрининга. |
+| 44 | reviewer_note | Заметки заполняющего. Содержит, в первую очередь, обоснование решения по вторичному скринингу (см. поле `eligibility`), а также любые другие соображения, возникающие при работе со статьей. |
+| 45 | available_reports | Список доступных для изучения документов об исследовании. |
+| 46 | retraction_notes | Изъятия из публикации (есть ли сведения, что статьи были изъяты из публикации решением редакции журнала, где прочесть об этом). |
+| 47 | protocol_and_reg | Протокол и регистрация (где и как можно ознакомиться с протоколом исследования, было ли исследование зарегистрировано в каких-либо регистрах и в каких, как получить доступ). |
+| 48 | eligibility | Селектор одного из вариантов из выпадающего списка: «Включены», «Исключены», «Ожидают рассмотрения», «Слияние с другим источником». Поле призвано содержать рубрику, в которой в конечном счете в обзоре окажутся ссылки на данное исследование. Вариант слияния предназначен для случаев, когда данное исследование уже начали разбирать при изучении другого источника (в ситуациях, когда  в нескольких источниках описывается одно и то же исследование). |
+| 49 | p_setting | Условия учреждения (учреждений), где производился набор выборки (что за учреждения, где и когда, какие у них характеристики, при этом речь именно про _набор выборки_, место и условия выполнения вмешательств могут отличаться). |
+| 50 | p_sampling | Порядок набора выборки. |
+| 51 | p_sample_losses | Потери пациентов при формировании выборки (то есть уже после применения критериев включения и исключения, но еще до выполнения вмешательств, выбыл ли кто-то). |
+| 52 | p_sex | Пол в выборке. |
+| 53 | p_age | Возраст в выборке. |
+| 54 | p_doi | Давность травмы в выборке (DOI — Date of Injury, то есть дата травмы, устоявшаяся аббревиатура). |
+| 55 | p_hpi | Анамнез перелома в выборке (HPI — History of the Present Illness, то есть анамнез заболевания, устоявшаяся аббревиатура). |
+| 56 | p_pmhx_pshx | Перенесенные и хронические заболевания, операции в выборке (PMHx — Past Medical History, то есть перенесенные и хронические заболевания, PSHx — Past Surgical History, то есть перенесенные операции, устоявшиеся аббревиатуры). |
+| 57 | p_medications | Принимаемые препараты в выборке (то есть лекарственный анамнез). |
+| 58 | p_osteoporosis | Остеопороз в выборке. |
+| 59 | p_obs_gyn | Акушерско-гинекологический (obstetrics and gynecology) статус в выборке (анамнез и сопутствующие состояния, беременность, menses и так далее). |
+| 60 | p_allergies | Аллергии в выборке (то есть аллергологический анамнез). |
+| 61 | p_social_hx | Социальный анамнез в выборке (social history; в том числе курение, употребление алкоголя и наркотиков, условия проживания, размер доходов, уровень образования, эпиданамнез). |
+| 62 | p_family_hx | Семейный анамнез в выборке (family history). |
+| 63 | p_sx_risk | Операционный риск в выборке (в частности по [шкале ASA](https://www.asahq.org/standards-and-guidelines/asa-physical-status-classification-system)). |
+| 64 | p_extra_injuries | Повреждения вне позвоночника в выборке (extraspinal injuries). |
+| 65 | p_fx_levels | Уровни перелома в выборке (fracture levels). |
+| 66 | p_fx_count | Число переломов позвонков в выборке (fracture count). |
+| 67 | p_fx_morphology | Морфология перелома в выборке (fracture morphology). |
+| 68 | p_neurology | Неврологический дефицит в выборке. |
+| 69 | p_spine_pshx | Анамнез операций на позвоночнике в выборке (PSHx — Past Surgical History, то есть перенесенные операции, устоявшаяся аббревиатура). |
+| 70 | p_spine_disease | Сопутствующая патология позвоночника в выборке. |
+| 71 | p_other | Другие характеристики выборки. |
+| 72 | i_main | Основная группа в рамках помощи. |
+| 73 | i_comparison | Группа сравнения в рамках помощи. |
+| 74 | i_rationale | Обоснование объема и содержания помощи (со слов авторов, как обосновывают сами авторы). |
+| 75 | i_who_where | Кто и где оказывали помощь (речь именно про место и условия _выполнения вмешательств_, в отличие от места и условий набора выборки). |
+| 76 | i_care_coverage | Финансирование помощи (кто оплачивал, за чьи средства оказывалась помощь). |
+| 77 | i_assignment | Порядок распределения на группы в рамках помощи (intervention assignment; каким образом выполняли распределение на группы: кто решал, кого в какую группу, в какой момент и на каком основании). |
+| 78 | i_alloc_conceal | Сокрытие последовательности распределения в рамках помощи (intervention allocation concealment; можно ли было просчитать или догадаться, в какую группу попадет каждый следующий участник, или это можно было понять только в сам момент распределения, как это было организовано). |
+| 79 | i_assign_mask | Маскирование распределения в рамках помощи (intervention assignment masking; знали ли лица, распределявшие участников в группы / сами участники / лица, участвовавшие в оказании помощи, какой участник будет получать какое вмешательство, и если да, то как было организовано сокрытие этих сведений). |
+| 80 | i_deliv_deviations | Отклонения от запланированной помощи (intervention delivery deviations; когда авторы описывают, что в каких-то случаях не удалось выполнить вмешательства по плану в связи с такими-то и такими обстоятельствами). |
+| 81 | i_crossover | Кроссовер исследуемых (то есть переход из одной группы исследования в другую уже после выполнения распределения на группы). |
+| 82 | i_sx_count | Число операций (surgery count) на позвоночнике в рамках помощи. |
+| 83 | i_extra_sx | Операции вне позвоночника (extraspinal surgery) в рамках помощи. |
+| 84 | i_nonsx_therapy | Консервативные методы лечения (nonsurgical therapy) в рамках помощи. |
+| 85 | i_time_to_sx | Время до операции (time to surgery) в рамках помощи. |
+| 86 | i_preop_wu | Предоперационная подготовка (preoperative work-up) в рамках помощи. |
+| 87 | i_anesthesia | Анестезиологическое пособие в рамках помощи. |
+| 88 | i_surgeon_xp | Опыт хирурга (surgeon experience) в рамках помощи. |
+| 89 | i_incision_line | Линия разреза в рамках помощи (например локализация, ход разреза, размер скальпеля). |
+| 90 | i_incision_size | Величина разреза в рамках помощи. |
+| 91 | i_sx_retractors | Ранорасширители (surgical retractors) в рамках помощи. |
+| 92 | i_endoscopy | Эндоскопия в рамках помощи. |
+| 93 | i_videoscopy | Видеоэндоскопия в рамках помощи. |
+| 94 | i_microscopy | Операционный микроскоп в рамках помощи. |
+| 95 | i_microsurgery | Микрохирургическая техника в рамках помощи. |
+| 96 | i_sx_navigation | Компьютерная навигация (surgical navigation) в рамках помощи (в том числе интраоперационная КТ, [O-arm](https://google.com/search?q=o+arm)). |
+| 97 | i_c-arm | ЭОП в рамках помощи (интраоперационная рентгеноскопия, флуороскопия, C-дуга). |
+| 98 | i_spine_toolset | Инструменты для хирургии позвоночника в рамках помощи. |
+| 99 | i_decompression | Декомпрессивный прием в рамках помощи (подробнее см. в [DISCUSSION](https://github.com/p1m-ortho/xt-ao-type-a/blob/3eb8108034c910b8ae3c0c6d358ee9d9f3965f77/DISCUSSION)). |
+| 100 | i_reduction | Репозиционный прием в рамках помощи (подробнее см. в [DISCUSSION](https://github.com/p1m-ortho/xt-ao-type-a/blob/3eb8108034c910b8ae3c0c6d358ee9d9f3965f77/DISCUSSION)). |
+| 101 | i_screw_count | Число винтов в рамках помощи. |
+| 102 | i_screw_config | Расположение винтов (screw configuration) в рамках помощи (в сломанный позвонок, выше, ниже, через сломанный корень дуги, не через сломанный корень дуги и так далее). |
+| 103 | i_post_fixat_dev | Задние конструкции (posterior fixation devices) в рамках помощи (подробнее см. в [DISCUSSION](https://github.com/p1m-ortho/xt-ao-type-a/blob/3eb8108034c910b8ae3c0c6d358ee9d9f3965f77/DISCUSSION)). |
+| 104 | i_ven_fixat_dev | Передние конструкции (ventral fixation devices) в рамках помощи (подробнее см. в [DISCUSSION](https://github.com/p1m-ortho/xt-ao-type-a/blob/3eb8108034c910b8ae3c0c6d358ee9d9f3965f77/DISCUSSION)). |
+| 105 | i_fus_implants | Материал спондилодеза (fusion implants) в рамках помощи (подробнее см. в [DISCUSSION](https://github.com/p1m-ortho/xt-ao-type-a/blob/3eb8108034c910b8ae3c0c6d358ee9d9f3965f77/DISCUSSION)). |
+| 106 | i_fus_technique | Техника спондилодеза (fusion technique) в рамках помощи (подробнее см. в [DISCUSSION](https://github.com/p1m-ortho/xt-ao-type-a/blob/3eb8108034c910b8ae3c0c6d358ee9d9f3965f77/DISCUSSION)). |
+| 107 | i_augmentation | Аугментационные методики в рамках помощи (вертебро-, кифо-, стентопластика, иные внутрипозвоночные импланты, транспедикулярная костная пластика). |
+| 108 | i_other_implants | Другие имплантаты в рамках помощи (буквально что угодно остальное, что имплантируется в рану). |
+| 109 | i_drain_policy | Подход к дренированию в рамках помощи. |
+| 110 | i_suturing | Подход к ушиванию в рамках помощи. |
+| 111 | i_postop_mgmt | Послеоперационное ведение в рамках помощи. |
+| 112 | i_dc_plan | Выписные рекомендации (discharge plan) в рамках помощи. |
+| 113 | i_other | Другое в рамках помощи. |
+| 114 | o_assessment | Порядок оценки результатов (outcome assessment; как именно, с применением каких методик и инструментов оценивали те или иные результаты, например порядок заполнения опросников, порядок оценки неврологического дефицита, порядок измерения лучевых показателей). |
+| 115 | o_assess_mask | Маскирование при оценке результатов (outcome assessment masking; в момент выполнения оценки результатов знали ли оценивающие, какое вмешательство было выполнено обследуемому; следует учитывать, что при заполнении опросников непосредственно со слов самого обследуемого сам обследуемый и является оценивающим). |
+| 116 | o_fu_schedule | График отслеживания результатов (follow-up schedule). |
+| 117 | o_fu_losses | Потери пациентов при отслеживании результатов (follow-up losses). |
+| 118 | o_nonreporting | Недоложенные результаты (outcome nonreporting; то есть результаты, которые планировали оценивать по протоколу, но не представлены в тексте итоговых статей). |
+| 119 | o_main_analyses | Основные анализы результатов, то есть сравнения результатов между основными группами. |
+| 120 | o_sub_analyses | Анализы результатов в подгруппах (subgroup analyses). |
+| 121 | o_add_analyses | Дополнительные анализы результатов (additional analyses). |
+| 122 | o_handl_mul_anal | Порядок работы со множественными анализами результатов (handling multiple analyses). |
+| 123 | o_covar_adjust | Поправки на ковариацию в анализе результатов (covariation adjustments). |
+| 124 | o_survival_anal | Анализ выживаемости в анализе результатов (survival analysis). |
+| 125 | o_mul_measure | Порядок работы со множественными измерениями результатов (multiple measurements). |
+| 126 | o_or_time | Длительность операции (operation room time) как результат. |
+| 127 | o_blood_loss | Кровопотеря как результат. |
+| 128 | o_transfus_need | Потребность в трансфузиях (transfusion need) как результат. |
+| 129 | o_neurology | Неврологический дефицит как результат. |
+| 130 | o_other_ae | Другие нежелательные события (other adverse events) как результат. |
+| 131 | o_hrqol | Качество жизни, связанное со здоровьем (HRQOL — Health-Related Quality of Life), как результат. |
+| 132 | o_pain_intensity | Выраженность боли как результат. |
+| 133 | o_pt_satisfaction | Удовлетворенность пациента (patient satisfaction) как результат. |
+| 134 | o_other_proms | Другие опросники для пациента (PROMs — Patient-Reported Outcome Measures) как результат. |
+| 135 | o_other_croms | Другие клинические шкалы (CROMs — Clinician-Reported Outcome Measures) как результат. |
+| 136 | o_ssi | Инфекция области операции (SSI — Surgical Site Infection) как результат. |
+| 137 | o_pacu_time | Длительность пребывания в ПИТ после операции (PACU — Post-Anesthesia Care Unit) как результат. |
+| 138 | o_inpatient_stay | Длительность госпитализации как результат. |
+| 139 | o_neuropath_pain | Радикулопатия (neuropathic pain) как результат. |
+| 140 | o_sepsis | Сепсис как результат. |
+| 141 | o_intraop_ae | Интраоперационные осложнения (intraoperative adverse events) как результат  |
+| 142 | o_repeat_sx | Повторные операции (repeat surgeries) на позвоночнике как результат. |
+| 143 | o_readmission | Повторные госпитализации как результат. |
+| 144 | o_death | Смерть как результат. |
+| 145 | o_pneumonia | Пневмония как результат. |
+| 146 | o_vte | ТЭЛА (VTE — Venous Thromboembolism) как результат. |
+| 147 | o_implant_failure | Несостоятельность конструкции как результат. |
+| 148 | o_implant_remov | Удаление конструкции (implant removal) как результат. |
+| 149 | o_verterbal_kyph | Кифоз тела позвонка (vertebral kyphosis) как результат (подробнее см. в [DISCUSSION](https://github.com/p1m-ortho/xt-ao-type-a/blob/3eb8108034c910b8ae3c0c6d358ee9d9f3965f77/DISCUSSION)). |
+| 150 | o_seg_kyph | Угол Гарднера (segmental kyphosis) как результат (подробнее см. в [DISCUSSION](https://github.com/p1m-ortho/xt-ao-type-a/blob/3eb8108034c910b8ae3c0c6d358ee9d9f3965f77/DISCUSSION)). |
+| 151 | o_local_kyph | Угол Кобба (local kyphosis) как результат (подробнее см. в [DISCUSSION](https://github.com/p1m-ortho/xt-ao-type-a/blob/3eb8108034c910b8ae3c0c6d358ee9d9f3965f77/DISCUSSION)). |
+| 152 | o_vertebral_ht | Высота тела позвонка (vertebral height) как результат. |
+| 153 | o_poor_union | Нарушения консолидации как результат. |
+| 154 | o_kyph_corr | Коррекция кифоза (kyphosis correction) как результат. |
+| 155 | o_corr_loss | Потеря коррекции (correction loss) как результат. |
+| 156 | o_canal_stenosis | Стеноз позвоночного канала как результат. |
+| 157 | o_alignment | Баланс как результат (имеются в виду показатели позвоночного баланса, позвоночно-тазовых взаимоотношений, такие как [SVA](https://google.com/search?tbm=isch&q=sagittal+vertical+axis), углы коронарных деформаций, [PT](https://google.com/search?tbm=isch&q=pelvic+tilt), [PI](https://google.com/search?tbm=isch&q=pelvic+incidence) и другие). |
+| 158 | o_other_imaging | Другие лучевые результаты. |
+| 159 | o_return_to_work | Возвращение к труду как результат. |
+| 160 | o_other | Другие результаты. |
+| 161 | handl_miss_data | Порядок работы с недостающими данными (handling missing data). |
+| 162 | other_adjust | Другие статистические поправки (adjustments). |
+| 163 | regression_anal | Анализы регрессии (regression analyses). |
+| 164 | other_econ_anal | Другие экономические анализы (economic analyses). |
+| 165 | study_conclusions | Выводы исследования (авторские). |
+| 166 | practice_recomm | Практические рекомендации (practice recommendations), которые дают авторы. |
+| 167 | research_recomm | Рекомендации для последующих исследований (research recommendations), которые дают авторы. |
+| 168 | what_is_next | Что дальше? То есть что дальше планируют делать сами авторы: может быть, остаются неопубликованными какие-то результаты, и авторы собираются их опубликовать, или планируют продолжить исследование в таком-то и таком ключе, или собираются внедрять полученные результаты в практику, или любые иные планы авторов. |
+| 169 | discussion | Обсуждение (имеется в виду раздел «Discussion» в самой статье, а также комментарии к статье и авторские ответы на них в публичных источниках). |
+| 170 | correspondence | Переписка (имеется в виду наша переписка с авторами). |
+| 171 | miscond_concern | Соображение о мошенничестве. |
+| 172 | coi_concern | Соображения о конфликте интересов. |
+| 173 | preib_cnfndng | Pre-intervention bias: Bias due to confounding. |
+| 174 | preib_selection | Pre-intervention bias: Bias in selection of participants into the study. |
+| 175 | preib_rndmztn | Pre-intervention bias: Bias arising from the randomization process. | 
+| 176 | atib_msclssfctn | At-intervention bias: Bias in classification of interventions |
+| 177 | poib_deviations | Post-intervention bias: Bias due to deviations from intended interventions. |
+| 178 | poib_missing | Post-intervention bias: Bias due to missing outcome data. |
+| 179 | poib_msrmnt | Post-intervention bias: Bias in measurement of the outcome.  |
+| 180 | poib_selection | Post-intervention bias: Bias in selection of the reported result. |
 
 Итак, в таком виде форма — готова к работе, приступаю к заполнению. По мере готовности буду отражать извлеченные данные в тексте обзора.
 
