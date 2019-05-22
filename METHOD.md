@@ -44,7 +44,7 @@ org/reporting-guidelines/tidier/), [ROBINS-I](https://www.riskofbias.info/welcom
 
 Когда закончу список полей, выгружу его сюда и напишу пояснения по каждому полю.
 
-Сделал завершенный вариант формы (прикрепляю, вычеркнуты поля, удаленные в короткой версии формы, см. 06c78207ceeb381f727cb4cb81b790678a82b145). Разъяснения (в очередной раз спасибо [Tables Generator](https://www.tablesgenerator.com/markdown_tables)):
+Сделал завершенный вариант формы (прикрепляю). Разъяснения (в очередной раз спасибо [Tables Generator](https://www.tablesgenerator.com/markdown_tables)):
 
 | № п/п | Поле | Описание |
 |-------|------|----------|
@@ -52,43 +52,43 @@ org/reporting-guidelines/tidier/), [ROBINS-I](https://www.riskofbias.info/welcom
 | 2 | Title | Экспортируется из PubMed или JabRef. |
 | 3 | URL | Экспортируется из PubMed или JabRef. |
 | 4 | Description | Экспортируется из PubMed. |
-| 5 | ~~Details~~ | Экспортируется из PubMed. |
+| 5 | Details | Экспортируется из PubMed. |
 | 6 | ShortDetails | Экспортируется из PubMed. |
-| 7 | ~~Resource~~ | Экспортируется из PubMed. |
-| 8 | ~~Type~~ | Экспортируется из PubMed. |
-| 9 | ~~Identifiers~~ | Экспортируется из PubMed. |
-| 10 | ~~Db~~ | Экспортируется из PubMed. |
-| 11 | ~~EntrezUID~~ | Экспортируется из PubMed. |
-| 12 | ~~Properties~~ | Экспортируется из PubMed. |
-| 13 | ~~BibliographyType~~ | Экспортируется из JabRef. |
-| 14 | ~~ISBN~~ | Экспортируется из JabRef. |
-| 15 | ~~Identifier~~ | Экспортируется из JabRef. |
+| 7 | Resource | Экспортируется из PubMed. |
+| 8 | Type | Экспортируется из PubMed. |
+| 9 | Identifiers | Экспортируется из PubMed. |
+| 10 | Db | Экспортируется из PubMed. |
+| 11 | EntrezUID | Экспортируется из PubMed. |
+| 12 | Properties | Экспортируется из PubMed. |
+| 13 | BibliographyType | Экспортируется из JabRef. |
+| 14 | ISBN | Экспортируется из JabRef. |
+| 15 | Identifier | Экспортируется из JabRef. |
 | 16 | Author | Экспортируется из JabRef. |
 | 17 | Journal | Экспортируется из JabRef. |
-| 18 | ~~Volume~~ | Экспортируется из JabRef. |
-| 19 | ~~Number~~ | Экспортируется из JabRef. |
-| 20 | ~~Month~~ | Экспортируется из JabRef. |
-| 21 | ~~Pages~~ | Экспортируется из JabRef. |
+| 18 | Volume | Экспортируется из JabRef. |
+| 19 | Number | Экспортируется из JabRef. |
+| 20 | Month | Экспортируется из JabRef. |
+| 21 | Pages | Экспортируется из JabRef. |
 | 22 | Year | Экспортируется из JabRef. |
-| 23 | ~~Address~~ | Экспортируется из JabRef. |
-| 24 | ~~Note~~ | Экспортируется из JabRef. |
-| 25 | ~~Booktitle~~ | Экспортируется из JabRef. |
-| 26 | ~~Chapter~~ | Экспортируется из JabRef. |
-| 27 | ~~Edition~~ | Экспортируется из JabRef. |
-| 28 | ~~Series~~ | Экспортируется из JabRef. |
-| 29 | ~~Editor~~ | Экспортируется из JabRef. |
-| 30 | ~~Publisher~~ | Экспортируется из JabRef. |
-| 31 | ~~ReportType~~ | Экспортируется из JabRef. |
-| 32 | ~~Howpublished~~ | Экспортируется из JabRef. |
-| 33 | ~~Institution~~ | Экспортируется из JabRef. |
-| 34 | ~~Organizations~~ | Экспортируется из JabRef. |
-| 35 | ~~School~~ | Экспортируется из JabRef. |
-| 36 | ~~Annote~~ | Экспортируется из JabRef. |
-| 37 | ~~Custom1~~ | Экспортируется из JabRef. |
-| 38 | ~~Custom2~~ | Экспортируется из JabRef. |
-| 39 | ~~Custom3~~ | Экспортируется из JabRef. |
-| 40 | ~~Custom4~~ | Экспортируется из JabRef. |
-| 41 | ~~Custom5~~ | Экспортируется из JabRef. |
+| 23 | Address | Экспортируется из JabRef. |
+| 24 | Note | Экспортируется из JabRef. |
+| 25 | Booktitle | Экспортируется из JabRef. |
+| 26 | Chapter | Экспортируется из JabRef. |
+| 27 | Edition | Экспортируется из JabRef. |
+| 28 | Series | Экспортируется из JabRef. |
+| 29 | Editor | Экспортируется из JabRef. |
+| 30 | Publisher | Экспортируется из JabRef. |
+| 31 | ReportType | Экспортируется из JabRef. |
+| 32 | Howpublished | Экспортируется из JabRef. |
+| 33 | Institution | Экспортируется из JabRef. |
+| 34 | Organizations | Экспортируется из JabRef. |
+| 35 | School | Экспортируется из JabRef. |
+| 36 | Annote | Экспортируется из JabRef. |
+| 37 | Custom1 | Экспортируется из JabRef. |
+| 38 | Custom2 | Экспортируется из JabRef. |
+| 39 | Custom3 | Экспортируется из JabRef. |
+| 40 | Custom4 | Экспортируется из JabRef. |
+| 41 | Custom5 | Экспортируется из JabRef. |
 | 42 | abstract | Аннотация (реферат). Копирую сюда вручную, если привлекаю ее к рассмотрению. |
 | 43 | primary_screen_ts | Дата и время выполнения первичного скрининга. |
 | 44 | reviewer_note | Заметки заполняющего. Содержит, в первую очередь, обоснование решения по вторичному скринингу (см. поле `eligibility`), а также любые другие соображения, возникающие при работе со статьей. |
