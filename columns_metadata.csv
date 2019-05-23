@@ -45,7 +45,7 @@ column_id,table_id,name,type,pos,rel
 2530,19,primary_screen_ts,DATE_TIME,42,
 2531,19,reviewer_note,TEXT,0,
 2532,19,available_reports,TEXT,0,
-2533,19,retraction_notes,TEXT,45,
+2533,19,retraction_notes,TEXT,0,
 2534,19,protocol_and_reg,TEXT,0,
 2535,19,eligibility,RELATIONSHIP,0,27
 2536,19,p_setting,TEXT,48,
