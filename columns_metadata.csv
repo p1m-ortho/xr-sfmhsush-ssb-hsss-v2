@@ -43,11 +43,11 @@ column_id,table_id,name,type,pos,rel
 2528,19,Custom5,TEXT,40,
 2529,19,abstract,TEXT,0,
 2530,19,primary_screen_ts,DATE_TIME,42,
-2531,19,reviewer_note,TEXT,-1,
-2532,19,available_reports,TEXT,0,
+2531,19,reviewer_note,TEXT,-2,
+2532,19,available_reports,TEXT,-1,
 2533,19,retraction_notes,TEXT,0,
 2534,19,protocol_and_reg,TEXT,0,
-2535,19,eligibility,RELATIONSHIP,-2,27
+2535,19,eligibility,RELATIONSHIP,-3,27
 2536,19,p_setting,TEXT,0,
 2537,19,p_sampling,TEXT,0,
 2538,19,p_sample_losses,TEXT,50,
@@ -64,7 +64,7 @@ column_id,table_id,name,type,pos,rel
 2549,19,p_family_hx,TEXT,61,
 2550,19,p_sx_risk,TEXT,0,
 2551,19,p_extra_injuries,TEXT,0,
-2552,19,p_fx_levels,TEXT,-3,
+2552,19,p_fx_levels,TEXT,-4,
 2553,19,p_fx_count,TEXT,0,
 2554,19,p_fx_morphology,TEXT,0,
 2555,19,p_neurology,TEXT,0,
