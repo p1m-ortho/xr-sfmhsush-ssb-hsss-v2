@@ -49,7 +49,7 @@ where id=5949 or id=7613 or id=7831 or id=8076 or id=8972 or id=8974 or id=9227 
 
 select /* Не исключены САС и ПВЖ, но не ССС */ t19.id uid
 from t19 left join t23 on uid=t23.id left join t24 on uid=t24.id left join t25 on uid=t25.id
-where c3030 is not null and c3033 is not null and c3036 is null /* N = 29 */;
+where uid > 4644 and (c3030 is not null and c3033 is not null and c3036 is null) /* N = 29 */;
 
 update t19 set c2535 = null, c2531 = '76e56fb6e2b277d21da824b5027aa493691b8f90' || char(10) || '1fa744854d9242e4e2d864ecf3fb53fa56ec6057'
 where id=4680 or id=4685 or id=4841 or id=4928 or id=4957 or id=5027 or id=5035 or id=5273 or id=5384 or id=6263 or id=6355 or id=6455 or id=7129 or id=7148 or id=7461 or id=7616 or id=7629 or id=7823 or id=7859 or id=7863 or id=8022 or id=8086 or id=8362 or id=8376 or id=8392 or id=8503 or id=8762 or id=8887 or id=8984
