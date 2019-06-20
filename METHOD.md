@@ -59,6 +59,7 @@ org/reporting-guidelines/tidier/), [ROBINS-I](https://www.riskofbias.info/welcom
 | 2 | Поля второй очереди, как правило, посвящены популяции, выборке исследования и порядку ее формирования. Предназначены для заполнения вручную и, как правило, в ходе скрининга после полей первой очереди. |
 | 3 | Поля третьей очереди, как правило, посвящены вмешательствам или факторам экспозиции, группам исследования и порядку распределения в них. Предназначены для заполнения вручную и, как правило, в ходе скрининга после полей второй очереди. |
 | 4 | Поля четвертой очереди, как правило, посвящены исходам, результатам исследования, их измерению, оценке, интерпретации и экстраполяции, посвящены анализу и синтезу как на уровне отдельного исхода, так и на уровне исследования, а также оценке рисков ошибок и качества свидетельств. Предназначены для заполнения вручную и, как правило, после завершения скрининга. |
+| 9 | Поля девятой очереди не участвуют в заполнении. Эта очередь введена, чтобы не- или малоиспользуемые поля, мешающие заполнению, сместить в самый низ формы. Удалять же такие поля не хочется, так как могут внезапно понадобиться. |
 
 | № п/п | Поле | Описание | Очередь |
 |-------|------|----------|-----------|
@@ -66,45 +67,45 @@ org/reporting-guidelines/tidier/), [ROBINS-I](https://www.riskofbias.info/welcom
 | 2 | Title | Экспортируется из PubMed или JabRef. | 0 |
 | 3 | URL | Экспортируется из PubMed или JabRef. | 0 |
 | 4 | Description | Экспортируется из PubMed. | 0  |
-| 5 | Details | Экспортируется из PubMed. | 0 |
+| 5 | Details | Экспортируется из PubMed. | 9 |
 | 6 | ShortDetails | Экспортируется из PubMed. | 0 |
-| 7 | Resource | Экспортируется из PubMed. | 0 |
-| 8 | Type | Экспортируется из PubMed. | 0 |
-| 9 | Identifiers | Экспортируется из PubMed. | 0 |
-| 10 | Db | Экспортируется из PubMed. | 0 |
-| 11 | EntrezUID | Экспортируется из PubMed. | 0 |
-| 12 | Properties | Экспортируется из PubMed. | 0 |
-| 13 | BibliographyType | Экспортируется из JabRef. | 0 |
-| 14 | ISBN | Экспортируется из JabRef. | 0 |
-| 15 | Identifier | Экспортируется из JabRef. | 0 |
+| 7 | Resource | Экспортируется из PubMed. | 9 |
+| 8 | Type | Экспортируется из PubMed. | 9 |
+| 9 | Identifiers | Экспортируется из PubMed. | 9 |
+| 10 | Db | Экспортируется из PubMed. | 9 |
+| 11 | EntrezUID | Экспортируется из PubMed. | 9 |
+| 12 | Properties | Экспортируется из PubMed. | 9 |
+| 13 | BibliographyType | Экспортируется из JabRef. | 9 |
+| 14 | ISBN | Экспортируется из JabRef. | 9 |
+| 15 | Identifier | Экспортируется из JabRef. | 9 |
 | 16 | Author | Экспортируется из JabRef. | 0 |
 | 17 | Journal | Экспортируется из JabRef. | 0 |
-| 18 | Volume | Экспортируется из JabRef. | 0 |
-| 19 | Number | Экспортируется из JabRef. | 0 |
-| 20 | Month | Экспортируется из JabRef. | 0 |
-| 21 | Pages | Экспортируется из JabRef. | 0 |
+| 18 | Volume | Экспортируется из JabRef. | 9 |
+| 19 | Number | Экспортируется из JabRef. | 9 |
+| 20 | Month | Экспортируется из JabRef. | 9 |
+| 21 | Pages | Экспортируется из JabRef. | 9 |
 | 22 | Year | Экспортируется из JabRef. | 0 |
-| 23 | Address | Экспортируется из JabRef. | 0 |
-| 24 | Note | Экспортируется из JabRef. | 0 |
-| 25 | Booktitle | Экспортируется из JabRef. | 0 |
-| 26 | Chapter | Экспортируется из JabRef. | 0 |
-| 27 | Edition | Экспортируется из JabRef. | 0 |
-| 28 | Series | Экспортируется из JabRef. | 0 |
-| 29 | Editor | Экспортируется из JabRef. | 0 |
-| 30 | Publisher | Экспортируется из JabRef. | 0 |
-| 31 | ReportType | Экспортируется из JabRef. | 0 |
-| 32 | Howpublished | Экспортируется из JabRef. | 0 |
-| 33 | Institution | Экспортируется из JabRef. | 0 |
-| 34 | Organizations | Экспортируется из JabRef. | 0 |
-| 35 | School | Экспортируется из JabRef. | 0 |
-| 36 | Annote | Экспортируется из JabRef. | 0 |
-| 37 | Custom1 | Экспортируется из JabRef. | 0 |
-| 38 | Custom2 | Экспортируется из JabRef. | 0 |
-| 39 | Custom3 | Экспортируется из JabRef. | 0 |
-| 40 | Custom4 | Экспортируется из JabRef. | 0 |
-| 41 | Custom5 | Экспортируется из JabRef. | 0 |
+| 23 | Address | Экспортируется из JabRef. | 9 |
+| 24 | Note | Экспортируется из JabRef. | 9 |
+| 25 | Booktitle | Экспортируется из JabRef. | 9 |
+| 26 | Chapter | Экспортируется из JabRef. | 9 |
+| 27 | Edition | Экспортируется из JabRef. | 9 |
+| 28 | Series | Экспортируется из JabRef. | 9 |
+| 29 | Editor | Экспортируется из JabRef. | 9 |
+| 30 | Publisher | Экспортируется из JabRef. | 9 |
+| 31 | ReportType | Экспортируется из JabRef. | 9 |
+| 32 | Howpublished | Экспортируется из JabRef. | 9 |
+| 33 | Institution | Экспортируется из JabRef. | 9 |
+| 34 | Organizations | Экспортируется из JabRef. | 9 |
+| 35 | School | Экспортируется из JabRef. | 9 |
+| 36 | Annote | Экспортируется из JabRef. | 9 |
+| 37 | Custom1 | Экспортируется из JabRef. | 9 |
+| 38 | Custom2 | Экспортируется из JabRef. | 9 |
+| 39 | Custom3 | Экспортируется из JabRef. | 9 |
+| 40 | Custom4 | Экспортируется из JabRef. | 9 |
+| 41 | Custom5 | Экспортируется из JabRef. | 9 |
 | 42 | abstract | Аннотация (реферат). Копирую сюда вручную, если привлекаю ее к рассмотрению. | 0 |
-| 43 | primary_screen_ts | Дата и время выполнения первичного скрининга. | 0 |
+| 43 | primary_screen_ts | Дата и время выполнения первичного скрининга. | 9 |
 | 44 | reviewer_note | Заметки заполняющего. Содержит, в первую очередь, обоснование решения по вторичному скринингу (см. поле `eligibility`), а также любые другие соображения, возникающие при работе со статьей. | 1 |
 | 45 | available_reports | Список доступных для изучения документов об исследовании. | 0 |
 | 46 | retraction_notes | Изъятия из публикации (есть ли сведения, что статьи были изъяты из публикации решением редакции журнала, где прочесть об этом). | 0 |
@@ -234,14 +235,14 @@ org/reporting-guidelines/tidier/), [ROBINS-I](https://www.riskofbias.info/welcom
 | 170 | correspondence | Переписка (имеется в виду наша переписка с авторами). | 0 |
 | 171 | miscond_concern | Соображение о мошенничестве. | 4 |
 | 172 | coi_concern | Соображения о конфликте интересов. | 4 |
-| 173 | preib_cnfndng | Pre-intervention bias: Bias due to confounding. | 4 |
-| 174 | preib_selection | Pre-intervention bias: Bias in selection of participants into the study. | 4 |
-| 175 | preib_rndmztn | Pre-intervention bias: Bias arising from the randomization process. | 4 |
-| 176 | atib_msclssfctn | At-intervention bias: Bias in classification of interventions | 4 |
-| 177 | poib_deviations | Post-intervention bias: Bias due to deviations from intended interventions. | 4 |
-| 178 | poib_missing | Post-intervention bias: Bias due to missing outcome data. | 4 |
-| 179 | poib_msrmnt | Post-intervention bias: Bias in measurement of the outcome.  | 4 |
-| 180 | poib_selection | Post-intervention bias: Bias in selection of the reported result. | 4 |
+| 173 | preib_cnfndng | Pre-intervention bias: Bias due to confounding. | 9 |
+| 174 | preib_selection | Pre-intervention bias: Bias in selection of participants into the study. | 9 |
+| 175 | preib_rndmztn | Pre-intervention bias: Bias arising from the randomization process. | 9 |
+| 176 | atib_msclssfctn | At-intervention bias: Bias in classification of interventions | 9 |
+| 177 | poib_deviations | Post-intervention bias: Bias due to deviations from intended interventions. | 9 |
+| 178 | poib_missing | Post-intervention bias: Bias due to missing outcome data. | 9 |
+| 179 | poib_msrmnt | Post-intervention bias: Bias in measurement of the outcome.  | 9 |
+| 180 | poib_selection | Post-intervention bias: Bias in selection of the reported result. | 9 |
 
 Итак, в таком виде форма — готова к работе, приступаю к заполнению. По мере готовности буду отражать извлеченные данные в тексте обзора.
 
