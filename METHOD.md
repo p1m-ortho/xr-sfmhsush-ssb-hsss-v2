@@ -243,10 +243,10 @@ org/reporting-guidelines/tidier/), [ROBINS-I](https://www.riskofbias.info/welcom
 | 178 | poib_missing | Post-intervention bias: Bias due to missing outcome data. | 9 |
 | 179 | poib_msrmnt | Post-intervention bias: Bias in measurement of the outcome.  | 9 |
 | 180 | poib_selection | Post-intervention bias: Bias in selection of the reported result. | 9 |
-| 181 | 1st_chart_time | Время картирования в первую очередь в секундах. | 0 |
-| 182 | 2nd_chart_time | Время картирования во вторую очередь в секундах. | 0 |
-| 183 | 3rd_chart_time | Время картирования в третью очередь в секундах. | 0 |
-| 184 | 4th_chart_time | Время картирования в четвертую очередь в секундах. | 0 |
+| 181 | 1st_chart_time | Время картирования в первую очередь. | 0 |
+| 182 | 2nd_chart_time | Время картирования во вторую очередь. | 0 |
+| 183 | 3rd_chart_time | Время картирования в третью очередь. | 0 |
+| 184 | 4th_chart_time | Время картирования в четвертую очередь. | 0 |
 | 185 | trng | True Random Number Generation. Поле для вставки случайных чисел (для сортировки записей в таблице в случайном порядке). | 9 |
 
 Итак, в таком виде форма — готова к работе, приступаю к заполнению. По мере готовности буду отражать извлеченные данные в тексте обзора.
